@@ -1,0 +1,824 @@
+android_dlopen_ext: /data/app/com.gamania.lineagem-peENny_pHqM7eqXEEupWyQ==/oat/arm64/base.odex
+loadLibrary: ncgp
+Library Search Path: /data/app/com.gamania.lineagem-peENny_pHqM7eqXEEupWyQ==/lib/arm64:/data/app/com.gamania.lineagem-peENny_pHqM7eqXEEupWyQ==/base.apk!/lib/arm64-v8a
+android_dlopen_ext: /data/app/com.gamania.lineagem-peENny_pHqM7eqXEEupWyQ==/lib/arm64/libncgp.so
+ptrace request: 16  pid: 19181
+replaced ptrace func count: 1
+ptrace return: 18446744073709552000
+ptrace request: 16  pid: 19183
+replaced ptrace func count: 2
+ptrace return: 18446744073709552000
+android_dlopen_ext: /data/data/com.gamania.lineagem/cache/oat/arm64/28F92883.odex
+loadLibrary: lineage_sharedcpp
+Library Search Path: /data/user/0/com.gamania.lineagem/app_ncgl_ecbbb9b9:/data/app/com.gamania.lineagem-peENny_pHqM7eqXEEupWyQ==/lib/arm64
+android_dlopen_ext: /data/user/0/com.gamania.lineagem/app_ncgl_ecbbb9b9/liblineage_sharedcpp.so
+android_dlopen_ext: /data/data/com.gamania.lineagem/cache/oat/arm64/uniaws.odex
+android_dlopen_ext: /data/data/com.gamania.lineagem/cache/oat/arm64/uniaws.odex
+loadLibrary: ncgm
+Library Search Path: /data/user/0/com.gamania.lineagem/app_ncgl_ecbbb9b9:/data/app/com.gamania.lineagem-peENny_pHqM7eqXEEupWyQ==/lib/arm64
+android_dlopen_ext: /data/user/0/com.gamania.lineagem/app_ncgl_ecbbb9b9/libncgm.so
+dlopen: libicuuc.so
+enter fopen name and type: /proc/19319/status r
+[18:21:44:847]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:44:847]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:44:847]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:45:737]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:45:738]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:45:738]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:45:810]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:45:810]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:45:810]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:45:987]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:45:988]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:45:988]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:47:130]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:47:130]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:47:130]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:47:984]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:47:984]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:47:984]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:48:061]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:48:062]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:48:062]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:48:261]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:48:262]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:48:262]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:49:483]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:49:484]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:49:484]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:50:206]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:50:207]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:50:207]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:50:284]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:50:284]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:50:284]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:50:609]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:50:609]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:50:609]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:51:726]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:51:727]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:51:727]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:52:419]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:52:419]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:52:419]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:52:516]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:52:516]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:52:516]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:52:869]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:52:869]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:52:869]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:54:073]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:54:073]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:54:073]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:54:651]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:54:652]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:54:652]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:54:729]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:54:729]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:54:729]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:55:208]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:55:209]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:55:209]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:56:343]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:56:343]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:56:343]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:56:865]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:56:865]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:56:865]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:56:941]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:56:941]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:56:941]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:57:475]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:57:475]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:57:475]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:58:684]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:58:684]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:58:684]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:21:59:094]->threadid:19318-------------start:/proc/19153/status--------------
+[18:21:59:095]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:59:095]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:21:59:189]->threadid:19318-------------start:/proc/19319/status--------------
+[18:21:59:189]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:59:189]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:21:59:840]->threadid:19321-------------start:/proc/19319/status--------------
+[18:21:59:840]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:21:59:841]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:00:972]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:00:972]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:00:972]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:22:01:339]->threadid:19318-------------start:/proc/19153/status--------------
+[18:22:01:339]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:01:340]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:22:01:465]->threadid:19318-------------start:/proc/19319/status--------------
+[18:22:01:466]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:01:466]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:02:129]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:02:129]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:02:129]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:03:256]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:03:256]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:03:257]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:22:03:607]->threadid:19318-------------start:/proc/19153/status--------------
+[18:22:03:607]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:03:607]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:22:03:681]->threadid:19318-------------start:/proc/19319/status--------------
+[18:22:03:682]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:03:682]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:04:391]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:04:391]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:04:391]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:05:526]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:05:527]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:05:527]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:22:05:829]->threadid:19318-------------start:/proc/19153/status--------------
+[18:22:05:829]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:05:830]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:22:05:903]->threadid:19318-------------start:/proc/19319/status--------------
+[18:22:05:903]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:05:903]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:06:656]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:06:657]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:06:657]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:07:791]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:07:792]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:07:792]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[18:22:08:038]->threadid:19318-------------start:/proc/19153/status--------------
+[18:22:08:039]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:08:039]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[18:22:08:128]->threadid:19318-------------start:/proc/19319/status--------------
+[18:22:08:129]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:08:129]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[18:22:08:917]->threadid:19321-------------start:/proc/19319/status--------------
+[18:22:08:917]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:22:08:917]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+enter fopen name and type: /proc/19153/cmdline rt
+enter fopen name and type: /proc/19153/status rt
+[18:27:52:398]->threadid:19321-------------start:/proc/19319/status--------------
+[18:27:52:398]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:27:52:399]->threadid:19321-------------end:/proc/19319/status--------------
+[18:27:52:438]->threadid:19323-------------start:/proc/19153/cmdline--------------
+[18:27:52:438]->threadid:19323--0x7b99d27c38 libncgm.so!0x62c38
+0x7b99d27c34 libncgm.so!0x62c34
+0x7b99d9cd94 libncgm.so!0xd7d94
+0x7b99d9cb34 libncgm.so!0xd7b34
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:27:52:439]->threadid:19323-------------end:/proc/19153/cmdline--------------
+enter fopen name and type: /proc/19319/cmdline rt
+[18:27:52:529]->threadid:19318-------------start:/proc/19153/status--------------
+[18:27:52:532]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:27:52:532]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[18:31:07:404]->threadid:19323-------------start:/proc/19319/cmdline--------------
+[18:31:07:404]->threadid:19323--0x7b99d27c38 libncgm.so!0x62c38
+0x7b99d27c34 libncgm.so!0x62c34
+0x7b99d9cd94 libncgm.so!0xd7d94
+0x7b99d9cb34 libncgm.so!0xd7b34
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:31:07:405]->threadid:19323-------------end:/proc/19319/cmdline--------------
+[18:31:07:469]->threadid:19321-------------start:/proc/19319/status--------------
+[18:31:07:470]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:31:07:470]->threadid:19321-------------end:/proc/19319/status--------------
+[18:31:07:498]->threadid:19318-------------start:/proc/19319/status--------------
+[18:31:07:498]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:31:07:498]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+enter fopen name and type: /proc/19153/status rt
+[18:33:28:751]->threadid:19321-------------start:/proc/19319/status--------------
+[18:33:28:751]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:33:28:752]->threadid:19321-------------end:/proc/19319/status--------------
+[18:33:28:882]->threadid:19318-------------start:/proc/19153/status--------------
+[18:33:28:883]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:33:28:883]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[18:34:09:168]->threadid:19321-------------start:/proc/19319/status--------------
+[18:34:09:168]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:34:09:169]->threadid:19321-------------end:/proc/19319/status--------------
+[18:34:09:210]->threadid:19318-------------start:/proc/19319/status--------------
+[18:34:09:211]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:34:09:211]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+enter fopen name and type: /proc/19153/status rt
+[18:35:31:512]->threadid:19321-------------start:/proc/19319/status--------------
+[18:35:31:512]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:35:31:512]->threadid:19321-------------end:/proc/19319/status--------------
+[18:35:31:552]->threadid:19318-------------start:/proc/19153/status--------------
+[18:35:31:552]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:35:31:553]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[18:36:03:571]->threadid:19321-------------start:/proc/19319/status--------------
+[18:36:03:571]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:36:03:571]->threadid:19321-------------end:/proc/19319/status--------------
+[18:36:03:630]->threadid:19318-------------start:/proc/19319/status--------------
+[18:36:03:630]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:36:03:630]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+enter fopen name and type: /proc/19153/status rt
+[18:36:35:737]->threadid:19321-------------start:/proc/19319/status--------------
+[18:36:35:737]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:36:35:737]->threadid:19321-------------end:/proc/19319/status--------------
+[18:36:35:761]->threadid:19318-------------start:/proc/19153/status--------------
+[18:36:35:761]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[18:36:35:762]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:38:515]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:38:515]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:38:515]->threadid:19321-------------end:/proc/19319/status--------------
+[19:39:38:552]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:38:552]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:38:552]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:39:718]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:39:719]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:39:719]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[19:39:40:692]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:40:693]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:40:693]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:40:796]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:40:796]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:40:796]->threadid:19318-------------end:/proc/19319/status--------------
+[19:39:40:838]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:40:838]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:40:838]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:41:989]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:41:990]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:41:990]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[19:39:42:940]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:42:940]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:42:940]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:43:061]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:43:061]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:43:061]->threadid:19321-------------end:/proc/19319/status--------------
+[19:39:43:086]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:43:087]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:43:088]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:44:202]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:44:202]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:44:202]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:45:224]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:45:224]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:45:225]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[19:39:45:294]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:45:294]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:45:294]->threadid:19321-------------end:/proc/19319/status--------------
+[19:39:45:363]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:45:364]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:45:364]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:46:443]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:46:443]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:46:443]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:47:551]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:47:552]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:47:552]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[19:39:47:637]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:47:638]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:47:638]->threadid:19321-------------end:/proc/19319/status--------------
+[19:39:47:675]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:47:676]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:47:676]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:48:848]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:48:848]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:48:848]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[19:39:49:808]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:49:809]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:49:809]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:49:959]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:49:959]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:49:960]->threadid:19318-------------end:/proc/19319/status--------------
+[19:39:49:996]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:49:996]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:49:996]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:51:133]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:51:133]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:51:133]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+[19:39:52:117]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:52:117]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:52:117]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:52:205]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:52:205]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:52:206]->threadid:19321-------------end:/proc/19319/status--------------
+[19:39:52:274]->threadid:19318-------------start:/proc/19319/status--------------
+[19:39:52:275]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:52:275]->threadid:19318-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19319/status r
+[19:39:53:346]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:53:346]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:53:346]->threadid:19321-------------end:/proc/19319/status--------------
+enter fopen name and type: /proc/19153/status rt
+enter fopen name and type: /proc/19319/status r
+[19:39:54:464]->threadid:19321-------------start:/proc/19319/status--------------
+[19:39:54:464]->threadid:19321--0x7b99da0350 libncgm.so!0xdb350
+0x7b99da034c libncgm.so!0xdb34c
+0x7b99da69d4 libncgm.so!0xe19d4
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:54:465]->threadid:19321-------------end:/proc/19319/status--------------
+[19:39:54:506]->threadid:19318-------------start:/proc/19153/status--------------
+[19:39:54:506]->threadid:19318--0x7b99d2781c libncgm.so!0x6281c
+0x7b99d27818 libncgm.so!0x62818
+0x7b99d9dd14 libncgm.so!0xd8d14
+0x7b99d9d980 libncgm.so!0xd8980
+0x7b99d9c6b4 libncgm.so!yjb1CKGnQVV69WqRlIkRFgLiE6yT6Rt3YxwedUdiSzDrAGypkt16omA5SNseqXlRduVzJNSJuZgr2FTrrOdCvRauzw1ieLcB1hFybviE75BsVdAMdTOI48Z0dFR4WCId50Lnvdq0XJPK7He7UXpSH2xpGxxVG2jYTCpT68kCg6b0i4aMwCTNYjD8kP3xn1A9x3Z3KScrJqNTNYUz9AVdkpoa6b6ja0QBdrFXTFSaKNm467yK3+0x80
+0x7c522cbc94 libc.so!0x69c94
+0x7c52280eec libc.so!0x1eeec
+[19:39:54:506]->threadid:19318-------------end:/proc/19153/status--------------
+enter fopen name and type: /proc/19319/status rt
+[19:39:54:603]->threadid:19318-------------start:/proc/19319/status--------------

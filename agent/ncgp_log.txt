@@ -1,0 +1,1425 @@
+TypeError: cannot read property 'base' of null
+    at [anon] (../../../frida-gum/bindings/gumjs/duktape.c:59225)
+    at hook_ncgp (/lineagemhook.js:400)
+    at main (/lineagemhook.js:507)
+    at frida/runtime/core.js:55
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+++++++++key: 
+replaced fork func count: 1
+replaced fork func count: 2
+>==================LoadS===================<
+3cd817355bbc427485bcee2a1a532d53
+ret: com.ncsoft.network.S3Helper
+^==================LoadS end===================^
+>==================LoadS===================<
+7fe0664c689643acad9fdaf0af4dde6f
+ret: setKeys
+^==================LoadS end===================^
+>==================LoadS===================<
+3e8ac680fa0846f0b784db4b4fa29a31
+ret: setRegion
+^==================LoadS end===================^
+>==================LoadS===================<
+c1c54f141e234bdc850d95356145706b
+ret: setProtocol
+^==================LoadS end===================^
+++++++++key: access_token
+>==================LoadS===================<
+2cff31194a884ad18007373fc46b0fdf
+ret: enableAccelerateMode
+^==================LoadS end===================^
+loads_addr: 0x72ccb93778
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  1404d16c648249a69e50ee6325a1e283
+arg1: 0x72c996fbb0
+[10:33:16:045]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:045]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:045]->threadid:20848-------------end:subB29DC--------------
+OutParam: uploadFile
+>==================LoadS===================<
+1404d16c648249a69e50ee6325a1e283
+ret: uploadFile
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  5023072a6bdc46d88ea69448ab161c6e
+arg1: 0x72c996fbb0
+[10:33:16:050]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:051]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:051]->threadid:20848-------------end:subB29DC--------------
+OutParam: uploadData
+>==================LoadS===================<
+5023072a6bdc46d88ea69448ab161c6e
+ret: uploadData
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  873239d028be47a09ae0eaab592e6a54
+arg1: 0x72c996fbb0
+[10:33:16:058]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:058]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:059]->threadid:20848-------------end:subB29DC--------------
+OutParam: prefixdir
+>==================LoadS===================<
+873239d028be47a09ae0eaab592e6a54
+ret: prefixdir
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  8a6411deb3f5477480be0886f8f32819
+arg1: 0x72c996fbb0
+[10:33:16:064]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:064]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:064]->threadid:20848-------------end:subB29DC--------------
+OutParam: prefix
+>==================LoadS===================<
+8a6411deb3f5477480be0886f8f32819
+ret: prefix
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  2b34250f4d8d4d148b20b5623832bcee
+arg1: 0x72c996fbb0
+[10:33:16:069]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:070]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:070]->threadid:20848-------------end:subB29DC--------------
+OutParam: pre
+>==================LoadS===================<
+2b34250f4d8d4d148b20b5623832bcee
+ret: pre
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e3ec9e103b2b4c2b80973794fed552b0
+arg1: 0x72c996fbb0
+[10:33:16:074]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:075]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:075]->threadid:20848-------------end:subB29DC--------------
+OutParam: tmp
+>==================LoadS===================<
+e3ec9e103b2b4c2b80973794fed552b0
+ret: tmp
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  3745a4ba14d94b30ad0ee5cfc5c251a6
+arg1: 0x72c996fa00
+[10:33:16:081]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:081]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:081]->threadid:20848-------------end:subB29DC--------------
+OutParam: MD5
+>==================LoadS===================<
+3745a4ba14d94b30ad0ee5cfc5c251a6
+ret: MD5
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  3745a4ba14d94b30ad0ee5cfc5c251a6
+arg1: 0x72c996fa00
+[10:33:16:087]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:087]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:088]->threadid:20848-------------end:subB29DC--------------
+OutParam: MD5
+>==================LoadS===================<
+3745a4ba14d94b30ad0ee5cfc5c251a6
+ret: MD5
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  870b39ecda134cbe91f660705294499b
+arg1: 0x72c996fbb0
+[10:33:16:096]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:097]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:097]->threadid:20848-------------end:subB29DC--------------
+OutParam: prefixdir
+>==================LoadS===================<
+870b39ecda134cbe91f660705294499b
+ret: prefixdir
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  66ff82c5e471498484df0a11a8c6281a
+arg1: 0x72c996fbb0
+[10:33:16:102]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:103]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:103]->threadid:20848-------------end:subB29DC--------------
+OutParam: /profile
+>==================LoadS===================<
+66ff82c5e471498484df0a11a8c6281a
+ret: /profile
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  59888ac5a1284df093ecedfd670396a6
+arg1: 0x72c996fbb0
+[10:33:16:108]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:108]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:108]->threadid:20848-------------end:subB29DC--------------
+OutParam: AES/CBC/PKCS5Padding
+>==================LoadS===================<
+59888ac5a1284df093ecedfd670396a6
+ret: AES/CBC/PKCS5Padding
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  1eb8a30a7e314224854ff295eff27932
+arg1: 0x72c996fbb0
+[10:33:16:113]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:113]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:113]->threadid:20848-------------end:subB29DC--------------
+OutParam: AES
+>==================LoadS===================<
+1eb8a30a7e314224854ff295eff27932
+ret: AES
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  51cc4b5a281343bbbda4ce89751e7db4
+arg1: 0x72c996fa00
+[10:33:16:118]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:119]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:119]->threadid:20848-------------end:subB29DC--------------
+OutParam: android_id
+>==================LoadS===================<
+51cc4b5a281343bbbda4ce89751e7db4
+ret: android_id
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e321f37f0cc548c1869d57fe36c5e572
+arg1: 0x72c996fa90
+[10:33:16:126]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:126]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:126]->threadid:20848-------------end:subB29DC--------------
+OutParam: MD5
+>==================LoadS===================<
+e321f37f0cc548c1869d57fe36c5e572
+ret: MD5
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  8a9074b9735c477598b758abf4e806f2
+arg1: 0x72c996fa00
+[10:33:16:132]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:132]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:132]->threadid:20848-------------end:subB29DC--------------
+OutParam: display
+>==================LoadS===================<
+8a9074b9735c477598b758abf4e806f2
+ret: display
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  51425b51c27541ee8788340ab15d0c58
+arg1: 0x72c996fa00
+[10:33:16:139]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:139]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:139]->threadid:20848-------------end:subB29DC--------------
+OutParam: density
+>==================LoadS===================<
+51425b51c27541ee8788340ab15d0c58
+ret: density
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  4c9f5a7f44874bd188fce52798104164
+arg1: 0x72c996fa00
+[10:33:16:143]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:143]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:143]->threadid:20848-------------end:subB29DC--------------
+OutParam: densityDpi
+>==================LoadS===================<
+4c9f5a7f44874bd188fce52798104164
+ret: densityDpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  c42b3aa690744a17b8d1dd6644d4824f
+arg1: 0x72c996fa00
+[10:33:16:146]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:147]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:147]->threadid:20848-------------end:subB29DC--------------
+OutParam: widthPixels
+>==================LoadS===================<
+c42b3aa690744a17b8d1dd6644d4824f
+ret: widthPixels
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  c9d74d70d9b84b1a92e258901cd68afb
+arg1: 0x72c996fa00
+[10:33:16:150]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:150]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:150]->threadid:20848-------------end:subB29DC--------------
+OutParam: heightPixels
+>==================LoadS===================<
+c9d74d70d9b84b1a92e258901cd68afb
+ret: heightPixels
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  0d7978dd73164faeb898de805a8452a7
+arg1: 0x72c996fa00
+[10:33:16:154]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:154]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:154]->threadid:20848-------------end:subB29DC--------------
+OutParam: scaledDensity
+>==================LoadS===================<
+0d7978dd73164faeb898de805a8452a7
+ret: scaledDensity
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  85c6126498284a57a10674029cfc7721
+arg1: 0x72c996fa00
+[10:33:16:158]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:158]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:158]->threadid:20848-------------end:subB29DC--------------
+OutParam: xdpi
+>==================LoadS===================<
+85c6126498284a57a10674029cfc7721
+ret: xdpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  5ae7e85a2c344216a01a0cebefd3cce2
+arg1: 0x72c996fa00
+[10:33:16:161]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:161]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:162]->threadid:20848-------------end:subB29DC--------------
+OutParam: ydpi
+>==================LoadS===================<
+5ae7e85a2c344216a01a0cebefd3cce2
+ret: ydpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  73853a6d5c5d4624a999e8f12919362d
+arg1: 0x72c996fa00
+[10:33:16:165]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:165]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:165]->threadid:20848-------------end:subB29DC--------------
+OutParam: DENSITY_DEFAULT
+>==================LoadS===================<
+73853a6d5c5d4624a999e8f12919362d
+ret: DENSITY_DEFAULT
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e92ebdbc8e9e444ebec14dd921723b97
+arg1: 0x72c996fa00
+[10:33:16:168]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:169]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:169]->threadid:20848-------------end:subB29DC--------------
+OutParam: DENSITY_LOW
+>==================LoadS===================<
+e92ebdbc8e9e444ebec14dd921723b97
+ret: DENSITY_LOW
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  edf085c6cd0c4a09bd75ed42223b626e
+arg1: 0x72c996fa00
+[10:33:16:172]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:172]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:173]->threadid:20848-------------end:subB29DC--------------
+OutParam: DENSITY_MEDIUM
+>==================LoadS===================<
+edf085c6cd0c4a09bd75ed42223b626e
+ret: DENSITY_MEDIUM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d39fa766981846d5bd6acaaf50d48dd2
+arg1: 0x72c996fa00
+[10:33:16:176]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:176]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:176]->threadid:20848-------------end:subB29DC--------------
+OutParam: DENSITY_HIGH
+>==================LoadS===================<
+d39fa766981846d5bd6acaaf50d48dd2
+ret: DENSITY_HIGH
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  b93eff878e884f08835c370c78b5a8d2
+arg1: 0x72c996fa00
+[10:33:16:181]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:181]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:181]->threadid:20848-------------end:subB29DC--------------
+OutParam: ncgm
+>==================LoadS===================<
+b93eff878e884f08835c370c78b5a8d2
+ret: ncgm
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e0ee44c95a2544068ea1b2cb74ddfe0f
+arg1: 0x72e9a5f210
+[10:33:16:343]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:343]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:344]->threadid:20848-------------end:subB29DC--------------
+OutParam: NCGM_FEEDBACK
+>==================LoadS===================<
+e0ee44c95a2544068ea1b2cb74ddfe0f
+ret: NCGM_FEEDBACK
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  ecbd250093d0424d9c186fe24d218f7c
+arg1: 0x72e9a5f210
+[10:33:16:348]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:348]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:348]->threadid:20848-------------end:subB29DC--------------
+OutParam: activity class name
+>==================LoadS===================<
+ecbd250093d0424d9c186fe24d218f7c
+ret: activity class name
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  1424a18639ad468d9578162816c18f70
+arg1: 0x72e9aca610
+[10:33:16:371]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:372]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:372]->threadid:20848-------------end:subB29DC--------------
+OutParam: NCGM_FEEDBACK
+>==================LoadS===================<
+1424a18639ad468d9578162816c18f70
+ret: NCGM_FEEDBACK
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  84f7b6d4ce084867ad05b952db427430
+arg1: 0x72e9aca610
+[10:33:16:377]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:377]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:378]->threadid:20848-------------end:subB29DC--------------
+OutParam: connect_type
+>==================LoadS===================<
+84f7b6d4ce084867ad05b952db427430
+ret: connect_type
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  2d2c95c5a8a2441e80fa50afe7c53168
+arg1: 0x72e9aca610
+[10:33:16:382]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:382]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:382]->threadid:20848-------------end:subB29DC--------------
+OutParam: connectivity
+>==================LoadS===================<
+2d2c95c5a8a2441e80fa50afe7c53168
+ret: connectivity
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  867e82ababdf4b8ca9e56c71b091f6f5
+arg1: 0x72e9aca610
+[10:33:16:389]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:389]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:390]->threadid:20848-------------end:subB29DC--------------
+OutParam: connect_extra
+>==================LoadS===================<
+867e82ababdf4b8ca9e56c71b091f6f5
+ret: connect_extra
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  2d2c95c5a8a2441e80fa50afe7c53168
+arg1: 0x72e9aca610
+[10:33:16:393]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:394]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:394]->threadid:20848-------------end:subB29DC--------------
+OutParam: connectivity
+>==================LoadS===================<
+2d2c95c5a8a2441e80fa50afe7c53168
+ret: connectivity
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  48b747b1971e44189a3c7637db83aee1
+arg1: 0x72e9ac87e0
+[10:33:16:401]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:401]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:402]->threadid:20848-------------end:subB29DC--------------
+OutParam: audio
+>==================LoadS===================<
+48b747b1971e44189a3c7637db83aee1
+ret: audio
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e0322f086ef5469892ee2f828ce0e2e3
+arg1: 0x72e9aca610
+[10:33:16:413]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:413]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:413]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+>==================LoadS===================<
+e0322f086ef5469892ee2f828ce0e2e3
+ret: SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72e9aca610
+[10:33:16:418]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:418]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:418]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  73c66d2ec1584a1d85575af96f9abf54
+arg1: 0x72e9aca610
+[10:33:16:422]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:423]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:423]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+>==================LoadS===================<
+73c66d2ec1584a1d85575af96f9abf54
+ret: SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72e9aca610
+[10:33:16:427]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:427]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:427]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  922576e629dc45ca897fed75a797f5b4
+arg1: 0x72e9aca610
+[10:33:16:432]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:432]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:432]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_HIDE_NAVIGATION
+>==================LoadS===================<
+922576e629dc45ca897fed75a797f5b4
+ret: SYSTEM_UI_FLAG_HIDE_NAVIGATION
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99a3900
+[10:33:16:436]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:436]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:437]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0245f265ae54c5485e9d82894aa7bf0
+arg1: 0x72c99a3900
+[10:33:16:440]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:440]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:440]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_FULLSCREEN
+>==================LoadS===================<
+d0245f265ae54c5485e9d82894aa7bf0
+ret: SYSTEM_UI_FLAG_FULLSCREEN
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72e9ac8ba0
+[10:33:16:444]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:444]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:444]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  93bbbeb3b25a40f6b069b44ce6645e3d
+arg1: 0x72e9ac8ba0
+[10:33:16:448]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:448]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:448]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+>==================LoadS===================<
+93bbbeb3b25a40f6b069b44ce6645e3d
+ret: SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72e9aca610
+[10:33:16:454]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:454]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:454]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  630fa55df58c4f308815d3840c579d0b
+arg1: 0x72e9aca610
+[10:33:16:458]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:458]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:458]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_LAYOUT_STABLE
+>==================LoadS===================<
+630fa55df58c4f308815d3840c579d0b
+ret: SYSTEM_UI_FLAG_LAYOUT_STABLE
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99a3900
+[10:33:16:461]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:462]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:462]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  3ef971f1a6684b7da25d1d6d88e098a3
+arg1: 0x72c99a3900
+[10:33:16:464]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:465]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:465]->threadid:20848-------------end:subB29DC--------------
+OutParam: setSystemUiVisibility
+>==================LoadS===================<
+3ef971f1a6684b7da25d1d6d88e098a3
+ret: setSystemUiVisibility
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  6dc4dd7cf940474aa721b242431bce2c
+arg1: 0x72c99a3900
+[10:33:16:467]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:467]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:468]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+6dc4dd7cf940474aa721b242431bce2c
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  da54ebcb938f4034a50a3907290e8c65
+arg1: 0x72c996f340
+[10:33:16:481]->threadid:20966-------------start:subB29DC--------------
+[10:33:16:481]->threadid:20966--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:481]->threadid:20966-------------end:subB29DC--------------
+OutParam: GT-I9100
+>==================LoadS===================<
+da54ebcb938f4034a50a3907290e8c65
+ret: GT-I9100
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  9d024388459c435fb34aa513f1a9004e
+arg1: 0x72c99bc860
+[10:33:16:514]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:514]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:514]->threadid:20848-------------end:subB29DC--------------
+OutParam: audio
+>==================LoadS===================<
+9d024388459c435fb34aa513f1a9004e
+ret: audio
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  a0dd983a79574bb994ee861fea05dac1
+arg1: 0x72c99bc980
+[10:33:16:541]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:541]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:542]->threadid:20848-------------end:subB29DC--------------
+OutParam: input_method
+>==================LoadS===================<
+a0dd983a79574bb994ee861fea05dac1
+ret: input_method
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e0322f086ef5469892ee2f828ce0e2e3
+arg1: 0x72c99bc980
+[10:33:16:547]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:547]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:547]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+>==================LoadS===================<
+e0322f086ef5469892ee2f828ce0e2e3
+ret: SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99bc980
+[10:33:16:553]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:553]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:554]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  73c66d2ec1584a1d85575af96f9abf54
+arg1: 0x72c99bc980
+[10:33:16:558]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:559]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:559]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+>==================LoadS===================<
+73c66d2ec1584a1d85575af96f9abf54
+ret: SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99bc980
+[10:33:16:568]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:569]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:569]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  922576e629dc45ca897fed75a797f5b4
+arg1: 0x72c99bc980
+[10:33:16:572]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:572]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:572]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_HIDE_NAVIGATION
+>==================LoadS===================<
+922576e629dc45ca897fed75a797f5b4
+ret: SYSTEM_UI_FLAG_HIDE_NAVIGATION
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99bc9b0
+[10:33:16:576]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:576]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:577]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0245f265ae54c5485e9d82894aa7bf0
+arg1: 0x72c99bc9b0
+[10:33:16:581]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:581]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:582]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_FULLSCREEN
+>==================LoadS===================<
+d0245f265ae54c5485e9d82894aa7bf0
+ret: SYSTEM_UI_FLAG_FULLSCREEN
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99bc950
+[10:33:16:586]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:587]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:587]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  93bbbeb3b25a40f6b069b44ce6645e3d
+arg1: 0x72c99bc950
+[10:33:16:593]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:593]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:593]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+>==================LoadS===================<
+93bbbeb3b25a40f6b069b44ce6645e3d
+ret: SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99bc980
+[10:33:16:597]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:597]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:597]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  630fa55df58c4f308815d3840c579d0b
+arg1: 0x72c99bc980
+[10:33:16:600]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:601]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:601]->threadid:20848-------------end:subB29DC--------------
+OutParam: SYSTEM_UI_FLAG_LAYOUT_STABLE
+>==================LoadS===================<
+630fa55df58c4f308815d3840c579d0b
+ret: SYSTEM_UI_FLAG_LAYOUT_STABLE
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d0b918058363416e90d58490e6dad0b5
+arg1: 0x72c99bc9b0
+[10:33:16:604]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:605]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:605]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+d0b918058363416e90d58490e6dad0b5
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  3ef971f1a6684b7da25d1d6d88e098a3
+arg1: 0x72c99bc9b0
+[10:33:16:610]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:610]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:610]->threadid:20848-------------end:subB29DC--------------
+OutParam: setSystemUiVisibility
+>==================LoadS===================<
+3ef971f1a6684b7da25d1d6d88e098a3
+ret: setSystemUiVisibility
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  6dc4dd7cf940474aa721b242431bce2c
+arg1: 0x72c99bc9b0
+[10:33:16:614]->threadid:20848-------------start:subB29DC--------------
+[10:33:16:614]->threadid:20848--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:614]->threadid:20848-------------end:subB29DC--------------
+OutParam: error
+>==================LoadS===================<
+6dc4dd7cf940474aa721b242431bce2c
+ret: error
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  da636c2bc7ff4490aee78d2985d03a5d
+arg1: 0x72e141dbb0
+[10:33:16:828]->threadid:20967-------------start:subB29DC--------------
+[10:33:16:828]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:828]->threadid:20967-------------end:subB29DC--------------
+OutParam: .key
+>==================LoadS===================<
+da636c2bc7ff4490aee78d2985d03a5d
+ret: .key
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  2d2c95c5a8a2441e80fa50afe7c53168
+arg1: 0x72e141dbb0
+[10:33:16:832]->threadid:20967-------------start:subB29DC--------------
+[10:33:16:832]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:832]->threadid:20967-------------end:subB29DC--------------
+OutParam: connectivity
+>==================LoadS===================<
+2d2c95c5a8a2441e80fa50afe7c53168
+ret: connectivity
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  f4c3ff1d396d452190aab618a9f9bee7
+arg1: 0x72e141dbb0
+[10:33:16:837]->threadid:20967-------------start:subB29DC--------------
+[10:33:16:837]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:16:837]->threadid:20967-------------end:subB29DC--------------
+OutParam: glenmorangie
+>==================LoadS===================<
+f4c3ff1d396d452190aab618a9f9bee7
+ret: glenmorangie
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  90a10d6779f14c5c82ae41e0164d0cb1
+arg1: 0x72e141dc40
+[10:33:17:033]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:035]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:037]->threadid:20967-------------end:subB29DC--------------
+OutParam: MD5
+>==================LoadS===================<
+90a10d6779f14c5c82ae41e0164d0cb1
+ret: MD5
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  1888f28fdb594acb849505f78b53b1b8
+arg1: 0x72e141dbb0
+[10:33:17:066]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:067]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:067]->threadid:20967-------------end:subB29DC--------------
+OutParam: AES/CFB/NoPadding
+>==================LoadS===================<
+1888f28fdb594acb849505f78b53b1b8
+ret: AES/CFB/NoPadding
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  1eb8a30a7e314224854ff295eff27932
+arg1: 0x72e141dbb0
+[10:33:17:086]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:086]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:086]->threadid:20967-------------end:subB29DC--------------
+OutParam: AES
+>==================LoadS===================<
+1eb8a30a7e314224854ff295eff27932
+ret: AES
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  80c13690255343ef9fe6d72446d95efa
+arg1: 0x72e141dbb0
+[10:33:17:100]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:100]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:101]->threadid:20967-------------end:subB29DC--------------
+OutParam: Feedback
+>==================LoadS===================<
+80c13690255343ef9fe6d72446d95efa
+ret: Feedback
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  9a32f08bdf4d4d70b9c4bcaa50c6a5a6
+arg1: 0x72e141dbb0
+[10:33:17:106]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:106]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:106]->threadid:20967-------------end:subB29DC--------------
+OutParam: validation_policy
+>==================LoadS===================<
+9a32f08bdf4d4d70b9c4bcaa50c6a5a6
+ret: validation_policy
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  07ef9a291cc54299b26fcfc3fe49fe82
+arg1: 0x72e141dbb0
+[10:33:17:112]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:112]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:113]->threadid:20967-------------end:subB29DC--------------
+OutParam: MD5
+>==================LoadS===================<
+07ef9a291cc54299b26fcfc3fe49fe82
+ret: MD5
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  9e116af6eb3345f591f0917653790508
+arg1: 0x72e141dbb0
+[10:33:17:118]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:118]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:119]->threadid:20967-------------end:subB29DC--------------
+OutParam: UTF-8
+>==================LoadS===================<
+9e116af6eb3345f591f0917653790508
+ret: UTF-8
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  9725d6d3c8a74dc082ae141f9f2fb209
+arg1: 0x72e141dbb0
+[10:33:17:127]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:127]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:127]->threadid:20967-------------end:subB29DC--------------
+OutParam: MD5
+>==================LoadS===================<
+9725d6d3c8a74dc082ae141f9f2fb209
+ret: MD5
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d027d01b734245848c2b055a473842f0
+arg1: 0x72e141dd90
+[10:33:17:133]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:133]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:133]->threadid:20967-------------end:subB29DC--------------
+OutParam: policy
+>==================LoadS===================<
+d027d01b734245848c2b055a473842f0
+ret: policy
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  b4267d9245e34a6f950273290f36e1de
+arg1: 0x72e141dd90
+[10:33:17:138]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:139]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:139]->threadid:20967-------------end:subB29DC--------------
+OutParam: NCGM_FEEDBACK
+>==================LoadS===================<
+b4267d9245e34a6f950273290f36e1de
+ret: NCGM_FEEDBACK
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  f7b37a2aa89b4028a31fc1af5d9c4f39
+arg1: 0x72e141dd90
+[10:33:17:144]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:144]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:144]->threadid:20967-------------end:subB29DC--------------
+OutParam: subject
+>==================LoadS===================<
+f7b37a2aa89b4028a31fc1af5d9c4f39
+ret: subject
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  610b1e6f572e427293aea3964883f1ad
+arg1: 0x72e141dd90
+[10:33:17:149]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:149]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:149]->threadid:20967-------------end:subB29DC--------------
+OutParam: id
+>==================LoadS===================<
+610b1e6f572e427293aea3964883f1ad
+ret: id
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  90e1e570a038433aa744fce60f071af3
+arg1: 0x72e141dd90
+[10:33:17:154]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:154]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:154]->threadid:20967-------------end:subB29DC--------------
+OutParam: key
+>==================LoadS===================<
+90e1e570a038433aa744fce60f071af3
+ret: key
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  c18e548239fa4b6e920c98d8b941f85a
+arg1: 0x72e141dd90
+[10:33:17:159]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:159]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:159]->threadid:20967-------------end:subB29DC--------------
+OutParam: POLICY_SUBJECT
+>==================LoadS===================<
+c18e548239fa4b6e920c98d8b941f85a
+ret: POLICY_SUBJECT
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  68ff323850b541b6acb2e5c6d70d171a
+arg1: 0x72e141dd90
+[10:33:17:163]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:164]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:164]->threadid:20967-------------end:subB29DC--------------
+OutParam: POLICY_ID
+>==================LoadS===================<
+68ff323850b541b6acb2e5c6d70d171a
+ret: POLICY_ID
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  696b4e82b2ea4035bbf470b25e0c9d2c
+arg1: 0x72e141dd90
+[10:33:17:168]->threadid:20967-------------start:subB29DC--------------
+[10:33:17:168]->threadid:20967--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:168]->threadid:20967-------------end:subB29DC--------------
+OutParam: POLICY_KEY
+>==================LoadS===================<
+696b4e82b2ea4035bbf470b25e0c9d2c
+ret: POLICY_KEY
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  ffb4604eccac48e9a8c462ae78451ffa
+arg1: 0x72c99bdbb0
+[10:33:17:210]->threadid:20988-------------start:subB29DC--------------
+[10:33:17:210]->threadid:20988--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:211]->threadid:20988-------------end:subB29DC--------------
+OutParam: update_interval
+>==================LoadS===================<
+ffb4604eccac48e9a8c462ae78451ffa
+ret: update_interval
+^==================LoadS end===================^
+replaced fork func count: 3
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  ee3e23b773044e28b357ed68b9d75e2c
+arg1: 0x72c996fdc0
+[10:33:17:521]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:522]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:522]->threadid:20986-------------end:subB29DC--------------
+OutParam: special_feature
+>==================LoadS===================<
+ee3e23b773044e28b357ed68b9d75e2c
+ret: special_feature
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  44aa9417e910462fb63a6c9d764e11f9
+arg1: 0x72c996fdc0
+[10:33:17:525]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:525]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:525]->threadid:20986-------------end:subB29DC--------------
+OutParam: special_feature
+>==================LoadS===================<
+44aa9417e910462fb63a6c9d764e11f9
+ret: special_feature
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  0a19b9c7ebdb497f95058a1e41033e08
+arg1: 0x72c996fdc0
+[10:33:17:528]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:529]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:529]->threadid:20986-------------end:subB29DC--------------
+OutParam: macro
+>==================LoadS===================<
+0a19b9c7ebdb497f95058a1e41033e08
+ret: macro
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  3723062d3bcd4f05a01d93ab2f801cfb
+arg1: 0x72c996fdc0
+[10:33:17:532]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:533]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:533]->threadid:20986-------------end:subB29DC--------------
+OutParam: macro
+>==================LoadS===================<
+3723062d3bcd4f05a01d93ab2f801cfb
+ret: macro
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  4ab1a2f74a4544ef8b2c9b06f10c1e97
+arg1: 0x72c996fdc0
+[10:33:17:550]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:551]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:552]->threadid:20986-------------end:subB29DC--------------
+OutParam: enable-condition
+>==================LoadS===================<
+4ab1a2f74a4544ef8b2c9b06f10c1e97
+ret: enable-condition
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  8a9074b9735c477598b758abf4e806f2
+arg1: 0x72c996fdc0
+[10:33:17:562]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:562]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:563]->threadid:20986-------------end:subB29DC--------------
+OutParam: display
+>==================LoadS===================<
+8a9074b9735c477598b758abf4e806f2
+ret: display
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  51425b51c27541ee8788340ab15d0c58
+arg1: 0x72c996fdc0
+[10:33:17:569]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:569]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:570]->threadid:20986-------------end:subB29DC--------------
+OutParam: density
+>==================LoadS===================<
+51425b51c27541ee8788340ab15d0c58
+ret: density
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  4c9f5a7f44874bd188fce52798104164
+arg1: 0x72c996fdc0
+[10:33:17:575]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:576]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:576]->threadid:20986-------------end:subB29DC--------------
+OutParam: densityDpi
+>==================LoadS===================<
+4c9f5a7f44874bd188fce52798104164
+ret: densityDpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  c42b3aa690744a17b8d1dd6644d4824f
+arg1: 0x72c996fdc0
+[10:33:17:580]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:580]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:580]->threadid:20986-------------end:subB29DC--------------
+OutParam: widthPixels
+>==================LoadS===================<
+c42b3aa690744a17b8d1dd6644d4824f
+ret: widthPixels
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  c9d74d70d9b84b1a92e258901cd68afb
+arg1: 0x72c996fdc0
+[10:33:17:584]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:584]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:584]->threadid:20986-------------end:subB29DC--------------
+OutParam: heightPixels
+>==================LoadS===================<
+c9d74d70d9b84b1a92e258901cd68afb
+ret: heightPixels
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  0d7978dd73164faeb898de805a8452a7
+arg1: 0x72c996fdc0
+[10:33:17:589]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:589]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:589]->threadid:20986-------------end:subB29DC--------------
+OutParam: scaledDensity
+>==================LoadS===================<
+0d7978dd73164faeb898de805a8452a7
+ret: scaledDensity
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  85c6126498284a57a10674029cfc7721
+arg1: 0x72c996fdc0
+[10:33:17:610]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:611]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:611]->threadid:20986-------------end:subB29DC--------------
+OutParam: xdpi
+>==================LoadS===================<
+85c6126498284a57a10674029cfc7721
+ret: xdpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  5ae7e85a2c344216a01a0cebefd3cce2
+arg1: 0x72c996fdc0
+[10:33:17:620]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:620]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:620]->threadid:20986-------------end:subB29DC--------------
+OutParam: ydpi
+>==================LoadS===================<
+5ae7e85a2c344216a01a0cebefd3cce2
+ret: ydpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  73853a6d5c5d4624a999e8f12919362d
+arg1: 0x72c996fdc0
+[10:33:17:626]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:626]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:626]->threadid:20986-------------end:subB29DC--------------
+OutParam: DENSITY_DEFAULT
+>==================LoadS===================<
+73853a6d5c5d4624a999e8f12919362d
+ret: DENSITY_DEFAULT
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  e92ebdbc8e9e444ebec14dd921723b97
+arg1: 0x72c996fdc0
+[10:33:17:631]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:631]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:631]->threadid:20986-------------end:subB29DC--------------
+OutParam: DENSITY_LOW
+>==================LoadS===================<
+e92ebdbc8e9e444ebec14dd921723b97
+ret: DENSITY_LOW
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  edf085c6cd0c4a09bd75ed42223b626e
+arg1: 0x72c996fdc0
+[10:33:17:637]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:637]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:638]->threadid:20986-------------end:subB29DC--------------
+OutParam: DENSITY_MEDIUM
+>==================LoadS===================<
+edf085c6cd0c4a09bd75ed42223b626e
+ret: DENSITY_MEDIUM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  d39fa766981846d5bd6acaaf50d48dd2
+arg1: 0x72c996fdc0
+[10:33:17:643]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:643]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:643]->threadid:20986-------------end:subB29DC--------------
+OutParam: DENSITY_HIGH
+>==================LoadS===================<
+d39fa766981846d5bd6acaaf50d48dd2
+ret: DENSITY_HIGH
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  becd9c89dc584760a495e16e84021b9c
+arg1: 0x72c996fdc0
+[10:33:17:661]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:661]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:661]->threadid:20986-------------end:subB29DC--------------
+OutParam: widthPixels
+>==================LoadS===================<
+becd9c89dc584760a495e16e84021b9c
+ret: widthPixels
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24a4da1e935849ca91de1ec32045859b
+arg1: 0x72c996fdc0
+[10:33:17:666]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:666]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:666]->threadid:20986-------------end:subB29DC--------------
+OutParam: heightPixels
+>==================LoadS===================<
+24a4da1e935849ca91de1ec32045859b
+ret: heightPixels
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  88083364062b40ed9fd326ab03999fae
+arg1: 0x72c996fdc0
+[10:33:17:670]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:670]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:671]->threadid:20986-------------end:subB29DC--------------
+OutParam: densityDpi
+>==================LoadS===================<
+88083364062b40ed9fd326ab03999fae
+ret: densityDpi
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  54979716c2744e9197bfbfaba9c39fa4
+arg1: 0x72e15017c0
+[10:33:17:681]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:681]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:681]->threadid:20986-------------end:subB29DC--------------
+OutParam: -
+>==================LoadS===================<
+54979716c2744e9197bfbfaba9c39fa4
+ret: -
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  faa0bc34d43142abb6d70ddeccc271b1
+arg1: 0x72e15017c0
+[10:33:17:688]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:689]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:689]->threadid:20986-------------end:subB29DC--------------
+OutParam: *
+>==================LoadS===================<
+faa0bc34d43142abb6d70ddeccc271b1
+ret: *
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  4c427192050f4ed29d4be6b0073c647b
+arg1: 0x72e15017c0
+[10:33:17:701]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:701]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:701]->threadid:20986-------------end:subB29DC--------------
+OutParam: &VM
+>==================LoadS===================<
+4c427192050f4ed29d4be6b0073c647b
+ret: &VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:706]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:706]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:706]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3
+ret: |VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:710]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:710]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:710]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3
+ret: |VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:732]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:732]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:733]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3
+ret: |VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:743]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:743]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:743]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3
+ret: |VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:752]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:752]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:752]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3
+ret: |VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:782]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:782]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:783]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3
+ret: |VM
+^==================LoadS end===================^
+on enter Java_com_ncsoft_ncgp_NCGPApplication_LoadS
++++onEnter subB29DC:  24b521f402ae4f3c873f92a7d7d45cd3
+arg1: 0x72e15017c0
+[10:33:17:789]->threadid:20986-------------start:subB29DC--------------
+[10:33:17:789]->threadid:20986--0x72ccb93828 libncgp.so!Java_com_ncsoft_ncgp_NCGPApplication_LoadS+0xb0
+0x736b13a608
+[10:33:17:789]->threadid:20986-------------end:subB29DC--------------
+OutParam: |VM
+>==================LoadS===================<
+24b521f402ae4f3c873f92a7d7d45cd3

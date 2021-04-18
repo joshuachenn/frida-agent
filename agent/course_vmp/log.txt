@@ -1,0 +1,9 @@
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+RegisterNativeFlag:[ArtMedthod::RegisterNative]boolean com.ncsoft.ncgp.NCGPApplication.Init(android.app.Application, android.content.Context)---addr:0x76485555bc
+RegisterNativeFlag:[ArtMedthod::RegisterNative]boolean com.ncsoft.ncgp.NCGPApplication.Load()---addr:0x76485556e8
+RegisterNativeFlag:[ArtMedthod::RegisterNative]java.lang.String com.ncsoft.ncgp.NCGPApplication.LoadS(java.lang.String)---addr:0x7648555778
+NCGPApplication.LoadS:java.lang.String com.ncsoft.ncgp.NCGPApplication.LoadS(java.lang.String)
+NCGPApplication.LoadS:java.lang.String com.ncsoft.ncgp.NCGPApplication.LoadS(java.lang.String)
