@@ -1,116 +1,120 @@
-android hooking watch class [Lcom.android.okhttp.CipherSuite;
-android hooking watch class [Lcom.android.okhttp.ConnectionSpec;
-android hooking watch class [Lcom.android.okhttp.HttpUrl$Builder$ParseResult;
-android hooking watch class [Lcom.android.okhttp.Protocol;
-android hooking watch class [Lcom.android.okhttp.TlsVersion;
-android hooking watch class com.android.okhttp.Address
-android hooking watch class com.android.okhttp.Authenticator
-android hooking watch class com.android.okhttp.CacheControl$Builder
-android hooking watch class com.android.okhttp.CertificatePinner
-android hooking watch class com.android.okhttp.CertificatePinner$Builder
-android hooking watch class com.android.okhttp.CipherSuite
-android hooking watch class com.android.okhttp.ConfigAwareConnectionPool
-android hooking watch class com.android.okhttp.ConfigAwareConnectionPool$1
-android hooking watch class com.android.okhttp.Connection
-android hooking watch class com.android.okhttp.ConnectionPool
-android hooking watch class com.android.okhttp.ConnectionPool$1
-android hooking watch class com.android.okhttp.ConnectionSpec$Builder
-android hooking watch class com.android.okhttp.Dispatcher
-android hooking watch class com.android.okhttp.Dns
-android hooking watch class com.android.okhttp.Dns$1
-android hooking watch class com.android.okhttp.Headers
-android hooking watch class com.android.okhttp.Headers$Builder
-android hooking watch class com.android.okhttp.HttpHandler$CleartextURLFilter
-android hooking watch class com.android.okhttp.HttpUrl
-android hooking watch class com.android.okhttp.HttpUrl$Builder
-android hooking watch class com.android.okhttp.HttpUrl$Builder$ParseResult
-android hooking watch class com.android.okhttp.HttpsHandler
-android hooking watch class com.android.okhttp.OkHttpClient
-android hooking watch class com.android.okhttp.OkHttpClient$1
-android hooking watch class com.android.okhttp.OkUrlFactory
-android hooking watch class com.android.okhttp.Protocol
-android hooking watch class com.android.okhttp.Request
-android hooking watch class com.android.okhttp.Request$Builder
-android hooking watch class com.android.okhttp.RequestBody
-android hooking watch class com.android.okhttp.RequestBody$2
-android hooking watch class com.android.okhttp.Response
-android hooking watch class com.android.okhttp.Response$Builder
-android hooking watch class com.android.okhttp.ResponseBody
-android hooking watch class com.android.okhttp.Route
-android hooking watch class com.android.okhttp.TlsVersion
-android hooking watch class com.android.okhttp.internal.ConnectionSpecSelector
-android hooking watch class com.android.okhttp.internal.Internal
-android hooking watch class com.android.okhttp.internal.OptionalMethod
-android hooking watch class com.android.okhttp.internal.Platform
-android hooking watch class com.android.okhttp.internal.RouteDatabase
-android hooking watch class com.android.okhttp.internal.URLFilter
-android hooking watch class com.android.okhttp.internal.Util
-android hooking watch class com.android.okhttp.internal.Util$1
-android hooking watch class com.android.okhttp.internal.Version
-android hooking watch class com.android.okhttp.internal.http.AuthenticatorAdapter
-android hooking watch class com.android.okhttp.internal.http.CacheStrategy
-android hooking watch class com.android.okhttp.internal.http.CacheStrategy$Factory
-android hooking watch class com.android.okhttp.internal.http.Http1xStream
-android hooking watch class com.android.okhttp.internal.http.Http1xStream$AbstractSource
-android hooking watch class com.android.okhttp.internal.http.Http1xStream$ChunkedSource
-android hooking watch class com.android.okhttp.internal.http.Http1xStream$FixedLengthSource
-android hooking watch class com.android.okhttp.internal.http.HttpEngine
-android hooking watch class com.android.okhttp.internal.http.HttpEngine$1
-android hooking watch class com.android.okhttp.internal.http.HttpMethod
-android hooking watch class com.android.okhttp.internal.http.HttpStream
-android hooking watch class com.android.okhttp.internal.http.OkHeaders
-android hooking watch class com.android.okhttp.internal.http.OkHeaders$1
-android hooking watch class com.android.okhttp.internal.http.RealResponseBody
-android hooking watch class com.android.okhttp.internal.http.RequestException
-android hooking watch class com.android.okhttp.internal.http.RequestLine
-android hooking watch class com.android.okhttp.internal.http.RetryableSink
-android hooking watch class com.android.okhttp.internal.http.RouteException
-android hooking watch class com.android.okhttp.internal.http.RouteSelector
-android hooking watch class com.android.okhttp.internal.http.StatusLine
-android hooking watch class com.android.okhttp.internal.http.StreamAllocation
-android hooking watch class com.android.okhttp.internal.huc.DelegatingHttpsURLConnection
-android hooking watch class com.android.okhttp.internal.huc.HttpURLConnectionImpl
-android hooking watch class com.android.okhttp.internal.huc.HttpsURLConnectionImpl
-android hooking watch class com.android.okhttp.internal.io.RealConnection
-android hooking watch class com.android.okhttp.internal.tls.OkHostnameVerifier
-android hooking watch class com.android.okhttp.okio.AsyncTimeout
-android hooking watch class com.android.okhttp.okio.AsyncTimeout$1
-android hooking watch class com.android.okhttp.okio.AsyncTimeout$2
-android hooking watch class com.android.okhttp.okio.AsyncTimeout$Watchdog
-android hooking watch class com.android.okhttp.okio.Buffer
-android hooking watch class com.android.okhttp.okio.BufferedSink
-android hooking watch class com.android.okhttp.okio.BufferedSource
-android hooking watch class com.android.okhttp.okio.ForwardingTimeout
-android hooking watch class com.android.okhttp.okio.GzipSource
-android hooking watch class com.android.okhttp.okio.InflaterSource
-android hooking watch class com.android.okhttp.okio.Okio
-android hooking watch class com.android.okhttp.okio.Okio$1
-android hooking watch class com.android.okhttp.okio.Okio$2
-android hooking watch class com.android.okhttp.okio.Okio$3
-android hooking watch class com.android.okhttp.okio.RealBufferedSink
-android hooking watch class com.android.okhttp.okio.RealBufferedSink$1
-android hooking watch class com.android.okhttp.okio.RealBufferedSource
-android hooking watch class com.android.okhttp.okio.RealBufferedSource$1
-android hooking watch class com.android.okhttp.okio.Segment
-android hooking watch class com.android.okhttp.okio.SegmentPool
-android hooking watch class com.android.okhttp.okio.Sink
-android hooking watch class com.android.okhttp.okio.Source
-android hooking watch class com.android.okhttp.okio.Timeout
-android hooking watch class com.android.okhttp.okio.Timeout$1
-android hooking watch class com.android.okhttp.okio.Util
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.IResponse
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiCallback
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$1
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$2
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$3
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$4
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$5
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$ApiHandler
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$ClientType
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiResponse
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiWorker
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.Nc2Response
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.NcAccessToken
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.NcAccessToken$Type
-android hooking watch class com.ncsoft.nc2sdk.channel.network.okhttp.NcJwt
+[Lcom.android.okhttp.CipherSuite;
+[Lcom.android.okhttp.ConnectionSpec;
+[Lcom.android.okhttp.HttpUrl$Builder$ParseResult;
+[Lcom.android.okhttp.Protocol;
+[Lcom.android.okhttp.TlsVersion;
+com.android.okhttp.Address
+com.android.okhttp.Authenticator
+com.android.okhttp.CacheControl
+com.android.okhttp.CacheControl$Builder
+com.android.okhttp.CertificatePinner
+com.android.okhttp.CertificatePinner$Builder
+com.android.okhttp.CipherSuite
+com.android.okhttp.ConfigAwareConnectionPool
+com.android.okhttp.ConfigAwareConnectionPool$1
+com.android.okhttp.Connection
+com.android.okhttp.ConnectionPool
+com.android.okhttp.ConnectionPool$1
+com.android.okhttp.ConnectionSpec
+com.android.okhttp.ConnectionSpec$Builder
+com.android.okhttp.Dispatcher
+com.android.okhttp.Dns
+com.android.okhttp.Dns$1
+com.android.okhttp.Handshake
+com.android.okhttp.Headers
+com.android.okhttp.Headers$Builder
+com.android.okhttp.HttpHandler
+com.android.okhttp.HttpHandler$CleartextURLFilter
+com.android.okhttp.HttpUrl
+com.android.okhttp.HttpUrl$Builder
+com.android.okhttp.HttpUrl$Builder$ParseResult
+com.android.okhttp.HttpsHandler
+com.android.okhttp.OkHttpClient
+com.android.okhttp.OkHttpClient$1
+com.android.okhttp.OkUrlFactory
+com.android.okhttp.Protocol
+com.android.okhttp.Request
+com.android.okhttp.Request$Builder
+com.android.okhttp.RequestBody
+com.android.okhttp.RequestBody$2
+com.android.okhttp.Response
+com.android.okhttp.Response$Builder
+com.android.okhttp.ResponseBody
+com.android.okhttp.Route
+com.android.okhttp.TlsVersion
+com.android.okhttp.internal.ConnectionSpecSelector
+com.android.okhttp.internal.Internal
+com.android.okhttp.internal.OptionalMethod
+com.android.okhttp.internal.Platform
+com.android.okhttp.internal.RouteDatabase
+com.android.okhttp.internal.URLFilter
+com.android.okhttp.internal.Util
+com.android.okhttp.internal.Util$1
+com.android.okhttp.internal.Version
+com.android.okhttp.internal.http.AuthenticatorAdapter
+com.android.okhttp.internal.http.CacheStrategy
+com.android.okhttp.internal.http.CacheStrategy$Factory
+com.android.okhttp.internal.http.Http1xStream
+com.android.okhttp.internal.http.Http1xStream$AbstractSource
+com.android.okhttp.internal.http.Http1xStream$ChunkedSource
+com.android.okhttp.internal.http.Http1xStream$FixedLengthSource
+com.android.okhttp.internal.http.HttpEngine
+com.android.okhttp.internal.http.HttpEngine$1
+com.android.okhttp.internal.http.HttpMethod
+com.android.okhttp.internal.http.HttpStream
+com.android.okhttp.internal.http.OkHeaders
+com.android.okhttp.internal.http.OkHeaders$1
+com.android.okhttp.internal.http.RealResponseBody
+com.android.okhttp.internal.http.RequestException
+com.android.okhttp.internal.http.RequestLine
+com.android.okhttp.internal.http.RetryableSink
+com.android.okhttp.internal.http.RouteException
+com.android.okhttp.internal.http.RouteSelector
+com.android.okhttp.internal.http.StatusLine
+com.android.okhttp.internal.http.StreamAllocation
+com.android.okhttp.internal.huc.DelegatingHttpsURLConnection
+com.android.okhttp.internal.huc.HttpURLConnectionImpl
+com.android.okhttp.internal.huc.HttpsURLConnectionImpl
+com.android.okhttp.internal.io.RealConnection
+com.android.okhttp.internal.tls.OkHostnameVerifier
+com.android.okhttp.okio.AsyncTimeout
+com.android.okhttp.okio.AsyncTimeout$1
+com.android.okhttp.okio.AsyncTimeout$2
+com.android.okhttp.okio.AsyncTimeout$Watchdog
+com.android.okhttp.okio.Buffer
+com.android.okhttp.okio.BufferedSink
+com.android.okhttp.okio.BufferedSource
+com.android.okhttp.okio.ForwardingTimeout
+com.android.okhttp.okio.GzipSource
+com.android.okhttp.okio.InflaterSource
+com.android.okhttp.okio.Okio
+com.android.okhttp.okio.Okio$1
+com.android.okhttp.okio.Okio$2
+com.android.okhttp.okio.Okio$3
+com.android.okhttp.okio.RealBufferedSink
+com.android.okhttp.okio.RealBufferedSink$1
+com.android.okhttp.okio.RealBufferedSource
+com.android.okhttp.okio.RealBufferedSource$1
+com.android.okhttp.okio.Segment
+com.android.okhttp.okio.SegmentPool
+com.android.okhttp.okio.Sink
+com.android.okhttp.okio.Source
+com.android.okhttp.okio.Timeout
+com.android.okhttp.okio.Timeout$1
+com.android.okhttp.okio.Util
+com.ncsoft.nc2sdk.channel.network.okhttp.IResponse
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiCallback
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$1
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$2
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$3
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$4
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$5
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$ApiHandler
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiHandler$ClientType
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiResponse
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2ApiWorker
+com.ncsoft.nc2sdk.channel.network.okhttp.Nc2Response
+com.ncsoft.nc2sdk.channel.network.okhttp.NcAccessToken
+com.ncsoft.nc2sdk.channel.network.okhttp.NcAccessToken$Type
+com.ncsoft.nc2sdk.channel.network.okhttp.NcJwt

@@ -1,5 +1,7 @@
 
+let somefunc = {
 
-function somefunc() {
-    console.log('some func')
+    outer: function somefunc() {
+        console.log('some func')
+    }
 }

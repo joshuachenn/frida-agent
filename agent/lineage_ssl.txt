@@ -1,0 +1,167 @@
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 5
+replaced fork func count: 6
+into SSL_Write
+[18:31:55:075]->threadid:22386-------------start:SSL_write--------------
+[18:31:55:075]->threadid:22386--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:31:55:075]->threadid:22386-------------end:SSL_write--------------
+into SSL_Write
+[18:32:26:165]->threadid:22400-------------start:SSL_write--------------
+[18:32:26:166]->threadid:22400--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:32:26:166]->threadid:22400-------------end:SSL_write--------------
+into SSL_Write
+[18:32:26:527]->threadid:22401-------------start:SSL_write--------------
+[18:32:26:527]->threadid:22401--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:32:26:527]->threadid:22401-------------end:SSL_write--------------
+into SSL_Write
+[18:32:26:918]->threadid:22402-------------start:SSL_write--------------
+[18:32:26:918]->threadid:22402--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:32:26:918]->threadid:22402-------------end:SSL_write--------------
+into SSL_Write
+[18:32:47:108]->threadid:22401-------------start:SSL_write--------------
+[18:32:47:108]->threadid:22401--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:32:47:108]->threadid:22401-------------end:SSL_write--------------
+into SSL_Write
+[18:33:08:073]->threadid:22403-------------start:SSL_write--------------
+[18:33:08:073]->threadid:22403--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:08:073]->threadid:22403-------------end:SSL_write--------------
+into SSL_Write
+[18:33:17:222]->threadid:22400-------------start:SSL_write--------------
+[18:33:17:222]->threadid:22400--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:17:222]->threadid:22400-------------end:SSL_write--------------
+into SSL_Write
+[18:33:17:937]->threadid:22402-------------start:SSL_write--------------
+[18:33:17:937]->threadid:22402--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:17:938]->threadid:22402-------------end:SSL_write--------------
+into SSL_Write
+[18:33:18:413]->threadid:22401-------------start:SSL_write--------------
+[18:33:18:414]->threadid:22401--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:18:414]->threadid:22401-------------end:SSL_write--------------
+into SSL_Write
+[18:33:18:836]->threadid:22403-------------start:SSL_write--------------
+[18:33:18:836]->threadid:22403--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:18:836]->threadid:22403-------------end:SSL_write--------------
+into SSL_Write
+[18:33:19:302]->threadid:22400-------------start:SSL_write--------------
+[18:33:19:302]->threadid:22400--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:19:302]->threadid:22400-------------end:SSL_write--------------
+into SSL_Write
+[18:33:19:762]->threadid:22402-------------start:SSL_write--------------
+[18:33:19:762]->threadid:22402--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:19:762]->threadid:22402-------------end:SSL_write--------------
+into SSL_Write
+[18:33:20:167]->threadid:22401-------------start:SSL_write--------------
+[18:33:20:167]->threadid:22401--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:20:167]->threadid:22401-------------end:SSL_write--------------
+into SSL_Write
+[18:33:21:286]->threadid:22510-------------start:SSL_write--------------
+[18:33:21:286]->threadid:22510--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:33:21:286]->threadid:22510-------------end:SSL_write--------------
+replaced fork func count: 7
+into SSL_Write
+[18:34:34:873]->threadid:22486-------------start:SSL_write--------------
+[18:34:34:874]->threadid:22486--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:34:34:874]->threadid:22486-------------end:SSL_write--------------
+into SSL_Write
+[18:34:35:513]->threadid:22533-------------start:SSL_write--------------
+[18:34:35:513]->threadid:22533--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:34:35:513]->threadid:22533-------------end:SSL_write--------------
+into SSL_Write
+[18:36:51:798]->threadid:22536-------------start:SSL_write--------------
+[18:36:51:799]->threadid:22536--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:36:51:799]->threadid:22536-------------end:SSL_write--------------
+into SSL_Write
+[18:36:52:172]->threadid:22542-------------start:SSL_write--------------
+[18:36:52:172]->threadid:22542--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:36:52:173]->threadid:22542-------------end:SSL_write--------------
+into SSL_Write
+[18:36:52:536]->threadid:22544-------------start:SSL_write--------------
+[18:36:52:536]->threadid:22544--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23c58 libjavacrypto.so!0x23c58
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:36:52:536]->threadid:22544-------------end:SSL_write--------------
+into SSL_Write
+[18:37:04:158]->threadid:22544-------------start:SSL_write--------------
+[18:37:04:159]->threadid:22544--0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa2ee44 libjavacrypto.so!0x2ee44
+0x744aa23d30 libjavacrypto.so!0x23d30
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+0x71234c40 boot-conscrypt.oat!oatexec+0x1ec40
+[18:37:04:159]->threadid:22544-------------end:SSL_write--------------

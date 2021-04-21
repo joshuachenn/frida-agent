@@ -646,9 +646,9 @@ function Java_LoadS() {
             //     var key = NCGPApplication.LoadS(hashKey)
             //     console.log(hashKey+": "+key+";")
             // }
-            // var hashKey = ''
-            // var key = NCGPApplication.LoadS(hashKey)
-            // console.log(hashKey+": "+key+";")
+            var hashKey = 'b93eff878e884f08835c370c78b5a8d2'
+            var key = NCGPApplication.LoadS(hashKey)
+            console.log(hashKey+": "+key+";")
         })
     }
 }
@@ -741,16 +741,18 @@ function hook_strstr() {
             // org.cocos2dx.lib.Cocos2dxRenderer.nativeRender
             // eglSwapBuffers
             // nanoTime
+            if (this.info.indexOf('ncsoft') == -1) {
+                return
+            }
             if (this.info.indexOf('nativeReadString') != -1 ||
             this.info.indexOf('Cocos2dxRenderer.nativeRender') != -1 ||
             this.info.indexOf('eglSwapBuffers') != -1 ||
-            this.info.indexOf('nanoTime') != -1 ) {
+            this.info.indexOf('nanoTime') != -1 || 
+            this.info.indexOf('com.android.org.conscrypt.NativeCrypto') != -1 ||
+            this.info.indexOf('LoadS') != -1) {
                 return
             }
-            // void android.view.InputEventReceiver.nativeFinishInputEvent(long, int, boolean)
-            if (this.info.indexOf('nativeTouchesBegin') != -1) {
-                console.log("JnimethodStart:", this.info)
-            }
+            console.log("JnimethodStart:", this.info)
         }
 
       }
@@ -790,6 +792,21 @@ function hook_login() {
     }
 }
 
+function hook_nativeSSL() {
+    // var liblineage_sharedcpp = Module.getBaseAddress('libssl.so')
+    // var SSL_write = liblineage_sharedcpp.add(0xB75ED4)
+    var SSL_write_addr = Module.findExportByName("libssl.so", "SSL_write")
+    // console.log('find liblineage_sharedcpp:', liblineage_sharedcpp.toString())
+    Interceptor.attach(SSL_write_addr, {
+        onEnter: function(args) {
+            console.log("into SSL_Write")
+            printNativeStack(this.context, 'SSL_write')
+        }, onLeave: function(retval) {
+
+        }
+    })
+}
+
 function hook_bypassAntiDebug() {
     var ptrace_addr = Module.findExportByName(null, "ptrace")
     var ptrace = new NativeFunction(ptrace_addr, "long", ["int", "int", "pointer", "pointer"])
@@ -823,15 +840,17 @@ function main() {
     // hook_doApiRequest()
     // hook_ncgp()
     // hook_strstr()
-    // Java_LoadS()
+    Java_LoadS()
     // decodeJwtHeader()
 
     // hook_login()
-    Java.perform(function() {
-        // traceClass("com.ncsoft.android.mop.AuthManager")
-        // traceClass('com.ncsoft.android.mop.apigate.requests.AuthRequest')
-        traceClass('com.ncsoft.android.mop.NcHttpRequest')
-    })
+    // Java.perform(function() {
+    //     // traceClass("com.ncsoft.android.mop.AuthManager")
+    //     // traceClass('com.ncsoft.android.mop.apigate.requests.AuthRequest')
+    //     traceClass('com.ncsoft.android.mop.NcHttpRequest')
+    // })
+
+    // hook_nativeSSL()
 
 }
 

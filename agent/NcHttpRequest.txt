@@ -681,3 +681,109 @@ com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession
 } => undefined => undefined
 [39;49;00m
 [30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs => "/logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs"
+arg[2]: {"log":[{"time":"2021-04-21 11:57:43.209","timezone":"Asia\/Taipei","logid":1003,"seq":284,"info":{"os":"Android","osver":"8.1.0","did":"32cf43d6-9b3f-44f3-be95-7022e855d2d8","md":"google AOSP on msm8996","ctver":"1.6.12","country":"US","store":"google","uid":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","oauth":"guest","emul":"false"},"start":{"adid":""}}]} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@d4ec6af => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: 33 => "<instance: java.lang.Integer>"
+arg[5]: null => null
+arg[6]: 5000 => 5000
+arg[7]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.MapManager$5>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.MapManager.sendLogInternalWithSession(MapManager.java:569)
+	at com.ncsoft.android.mop.MapManager.sendLogInternal(MapManager.java:307)
+	at com.ncsoft.android.mop.MapManager.sendNetworkLog(MapManager.java:418)
+	at com.ncsoft.android.mop.MapManager.sendLogByFile(MapManager.java:412)
+	at com.ncsoft.android.mop.MapManager.access$800(MapManager.java:38)
+	at com.ncsoft.android.mop.MapManager$3.run(MapManager.java:370)
+	at java.lang.Thread.run(Thread.java:764)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs => "/logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs"
+arg[2]: {"log":[{"time":"2021-04-21 12:57:29.726","timezone":"Asia\/Taipei","logid":1003,"seq":285,"user_s":{"hb":"1"},"info":{"os":"Android","osver":"8.1.0","did":"32cf43d6-9b3f-44f3-be95-7022e855d2d8","md":"google AOSP on msm8996","ctver":"1.6.12","country":"US","store":"google","uid":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","oauth":"guest","emul":"false"},"start":{}}]} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@4da9c11 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: 33 => "<instance: java.lang.Integer>"
+arg[5]: null => null
+arg[6]: 5000 => 5000
+arg[7]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.MapManager$5>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.MapManager.sendLogInternalWithSession(MapManager.java:569)
+	at com.ncsoft.android.mop.MapManager.sendLogInternal(MapManager.java:307)
+	at com.ncsoft.android.mop.MapManager.sendNetworkLog(MapManager.java:418)
+	at com.ncsoft.android.mop.MapManager.sendLogByFile(MapManager.java:412)
+	at com.ncsoft.android.mop.MapManager.access$800(MapManager.java:38)
+	at com.ncsoft.android.mop.MapManager$3.run(MapManager.java:370)
+	at java.lang.Thread.run(Thread.java:764)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs => "/logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs"
+arg[2]: {"log":[{"time":"2021-04-21 13:57:29.743","timezone":"Asia\/Taipei","logid":1003,"seq":286,"user_s":{"hb":"1"},"info":{"os":"Android","osver":"8.1.0","did":"32cf43d6-9b3f-44f3-be95-7022e855d2d8","md":"google AOSP on msm8996","ctver":"1.6.12","country":"US","store":"google","uid":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","oauth":"guest","emul":"false"},"start":{}}]} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@12bc403 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: 33 => "<instance: java.lang.Integer>"
+arg[5]: null => null
+arg[6]: 5000 => 5000
+arg[7]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.MapManager$5>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.MapManager.sendLogInternalWithSession(MapManager.java:569)
+	at com.ncsoft.android.mop.MapManager.sendLogInternal(MapManager.java:307)
+	at com.ncsoft.android.mop.MapManager.sendNetworkLog(MapManager.java:418)
+	at com.ncsoft.android.mop.MapManager.sendLogByFile(MapManager.java:412)
+	at com.ncsoft.android.mop.MapManager.access$800(MapManager.java:38)
+	at com.ncsoft.android.mop.MapManager$3.run(MapManager.java:370)
+	at java.lang.Thread.run(Thread.java:764)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+JnimethodStart: void android.os.Parcel.nativeEnforceInterface(long, java.lang.String)
+JnimethodStart: android.os.IBinder android.os.Parcel.nativeReadStrongBinder(long)
+JnimethodStart: long android.os.Parcel.nativeAppendFrom(long, long, int, int)
+JnimethodStart: void android.os.MessageQueue.nativeWake(long)
+JnimethodStart: long android.os.Parcel.nativeFreeBuffer(long)
+JnimethodStart: long android.os.Binder.clearCallingIdentity()
+JnimethodStart: void android.os.MessageQueue.nativePollOnce(long, int)
+JnimethodStart: void android.os.Binder.flushPendingCommands()
+JnimethodStart: void android.os.MessageQueue.nativePollOnce(long, int)
+JnimethodStart: void android.os.Parcel.nativeEnforceInterface(long, java.lang.String)
+JnimethodStart: android.os.IBinder android.os.Parcel.nativeReadStrongBinder(long)
+JnimethodStart: long android.os.Parcel.nativeAppendFrom(long, long, int, int)
+JnimethodStart: void android.os.MessageQueue.nativeWake(long)
+JnimethodStart: long android.os.Parcel.nativeFreeBuffer(long)
+JnimethodStart: void com.lineage.MiscUtil.onBatteryChargeChanged(boolean)
+JnimethodStart: long android.os.Binder.clearCallingIdentity()
+JnimethodStart: void android.os.MessageQueue.nativePollOnce(long, int)
+JnimethodStart: void android.os.Binder.flushPendingCommands()
+JnimethodStart: void android.os.MessageQueue.nativePollOnce(long, int)
