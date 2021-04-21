@@ -1,0 +1,73 @@
+07201ee4c65e4213b5afa86a92a1ef05: ;
+391a08fdae9542d1a128b58427807ffe: ;
+7c6e8bbddd3f45719d9e7743e78de879: ;
+302f03dc9eaf4317a3e81d8266b7bd8c: ;
+a343915fd43a4dbab3fd52eb726d64d8: ;
+82545c6ca4784f1589d9dd2e59bc89a2: ;
+fcb190fa662943c0a7a6cf7bac4c4cc8: ;
+878c4f749b4e4f249559cd81fb95fa6a: ;
+b33a304427414e9f9dac09a6051cf0ac: ;
+d282d8d40359480a9fb6cb77c130d8e1: ;
+610951d7b4f84c0e99b16431d16422c1: ;
+3b5df2700100489896e6609c5d7e12ee: ;
+07201ee4c65e4213b5afa86a92a1ef05: .;
+391a08fdae9542d1a128b58427807ffe: typ;
+7c6e8bbddd3f45719d9e7743e78de879: alg;
+302f03dc9eaf4317a3e81d8266b7bd8c: RS256;
+a343915fd43a4dbab3fd52eb726d64d8: JWT;
+82545c6ca4784f1589d9dd2e59bc89a2: iss;
+fcb190fa662943c0a7a6cf7bac4c4cc8: iat;
+878c4f749b4e4f249559cd81fb95fa6a: access_token;
+b33a304427414e9f9dac09a6051cf0ac: request;
+d282d8d40359480a9fb6cb77c130d8e1: RSA;
+610951d7b4f84c0e99b16431d16422c1: SHA256withRSA;
+3b5df2700100489896e6609c5d7e12ee: JWT ;
+Succefully found loader! dalvik.system.DexClassLoader[DexPathList[[dex file "/data/user/0/com.gamania.lineagem/cache/45C20855.dex"],nativeLibraryDirectories=[/data/user/0/com.gamania.lineagem/app_ncgl_c9e71082, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /system/lib64, /vendor/lib64]]]
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906928","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906928","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906929","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906929","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906941","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906941","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906950","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906950","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906960","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906960","typ":"app","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906960","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906960","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906961","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906961","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906962","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{"audience_app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906962","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{"audience_app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906962","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{"session_id":"2F43E469-E583-42E3-8BEA-8885491AB1A5"}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906962","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{"session_id":"2F43E469-E583-42E3-8BEA-8885491AB1A5"}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906963","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906963","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906964","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{"app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906964","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{"app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906965","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}
+{"alg":"RS256","typ":"JWT"}
+{"iss":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","iat":"1618906965","typ":"session","access_token":"0BC20D77-F0FB-4B97-A21B-7444172A079E","request":{}}

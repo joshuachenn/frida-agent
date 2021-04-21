@@ -1,0 +1,1270 @@
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.AuthManager" on path: DexPathList[[zip file "/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk"],nativeLibraryDirectories=[/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at traceClass (/lineagemhook.js:125)
+    at <anonymous> (/lineagemhook.js:831)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 5
+replaced fork func count: 6
+replaced fork func count: 1
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$000 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$100 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1000 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1100 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1200 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1300 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1400 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1500 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1600 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1700 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$1800 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$200 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$202 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$300 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$400 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$500 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$600 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$602 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$700 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$800 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.access$900 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.appleLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.beanfunLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.checkMarketPolicy [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.createSessionInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.dismissIntegratedLoginSelect [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.dismissSimpleLogin [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.facebookLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.finishMovingGameAccountIdInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.get [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getAppleAuthnTokenInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getBeanfunAuthnTokenInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getFacebookAuthnTokenInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getGoogleAuthnTokenInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getGuestToken [2 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getTwitterAuthnTokenInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.googleLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.googlePlayGameLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.guestLoginInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.isValidLoginWebUrl [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.isValidThirdPartyAuthWebUrl [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.lineLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginFinish [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.putSmsAgreement [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.responseLoginUrlError [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.showGuardian [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.showSimpleLogin [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.startLoginWeb [2 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.startMovingGameAccountIdInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.twitterLogoutInternal [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.associateAccount [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.authnToken [3 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.completeShowLoginByNc [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.createSession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.createTransferCode [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.errorShowLoginByNp [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.errorShowLoginByThirdPartyLogin [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getCurrentSession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getGameAccountIdMovableState [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.getGameAccountInfoByTransferCode [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.linkExternalAccount [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.login [3 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginAuthProvider [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginForTransferAccount [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginPlaync [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginThirdPartyAuthWeb [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginViaAuthProviderCode [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginViaGuest [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.loginViaPlaync [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.logout [3 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.logoutAll [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.logoutAuthProvider [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.moveGameAccountId [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.moveGameAccountIdByTransferCode [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.oauthToken [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.onLoggedIn [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.onLoggedOut [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.putAccessTokenByProvider [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.removeGuestToken [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.showLogin [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.showSimpleLoginWithVerifySession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.verifySession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.verifySessionForSimpleLogin [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.AuthManager.$init [1 overload(s)][39;49;00m
+[32;01m	Spec: => 
+static java.lang.String com.ncsoft.android.mop.AuthManager.access$000()
+static void com.ncsoft.android.mop.AuthManager.access$100(com.ncsoft.android.mop.AuthManager,android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1000(com.ncsoft.android.mop.AuthManager,android.app.Activity,java.lang.String,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1100(com.ncsoft.android.mop.AuthManager,android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1200(com.ncsoft.android.mop.AuthManager,android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1300(com.ncsoft.android.mop.AuthManager,android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1400(com.ncsoft.android.mop.AuthManager,java.lang.String,java.lang.String,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1500(com.ncsoft.android.mop.AuthManager,android.app.Activity,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1600(com.ncsoft.android.mop.AuthManager,android.app.Activity,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1700(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$1800(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.MetaData)
+static com.ncsoft.android.mop.apigate.NcJSONObject com.ncsoft.android.mop.AuthManager.access$200(com.ncsoft.android.mop.AuthManager)
+static com.ncsoft.android.mop.apigate.NcJSONObject com.ncsoft.android.mop.AuthManager.access$202(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.apigate.NcJSONObject)
+static void com.ncsoft.android.mop.AuthManager.access$300(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.AuthManager$LoginSessionInfo,com.ncsoft.android.mop.AuthManager$LoginSessionListener,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+static void com.ncsoft.android.mop.AuthManager.access$400(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.AuthManager$LoginSessionInfo,java.lang.String,com.ncsoft.android.mop.AuthManager$LoginSessionListener,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+static void com.ncsoft.android.mop.AuthManager.access$500(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.AuthManager$LoginSessionInfo,com.ncsoft.android.mop.AuthManager$LoginSessionListener,java.util.HashMap,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+static com.ncsoft.android.mop.NcLoginDialogFragment com.ncsoft.android.mop.AuthManager.access$600(com.ncsoft.android.mop.AuthManager)
+static com.ncsoft.android.mop.NcLoginDialogFragment com.ncsoft.android.mop.AuthManager.access$602(com.ncsoft.android.mop.AuthManager,com.ncsoft.android.mop.NcLoginDialogFragment)
+static void com.ncsoft.android.mop.AuthManager.access$700(com.ncsoft.android.mop.AuthManager,android.app.Activity,java.util.List,boolean,boolean,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+static void com.ncsoft.android.mop.AuthManager.access$800(com.ncsoft.android.mop.AuthManager)
+static com.ncsoft.android.mop.NcSimpleLoginDialogFragment com.ncsoft.android.mop.AuthManager.access$900(com.ncsoft.android.mop.AuthManager)
+private void com.ncsoft.android.mop.AuthManager.appleLogoutInternal(com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.beanfunLogoutInternal(com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.checkMarketPolicy(com.ncsoft.android.mop.AuthManager$LoginSessionInfo,com.ncsoft.android.mop.AuthManager$LoginSessionListener,java.util.HashMap,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+private void com.ncsoft.android.mop.AuthManager.createSessionInternal(android.app.Activity,java.lang.String,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.dismissIntegratedLoginSelect()
+private void com.ncsoft.android.mop.AuthManager.dismissSimpleLogin()
+private void com.ncsoft.android.mop.AuthManager.facebookLogoutInternal(com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.finishMovingGameAccountIdInternal(java.lang.String,java.lang.String,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+public static com.ncsoft.android.mop.AuthManager com.ncsoft.android.mop.AuthManager.get()
+private void com.ncsoft.android.mop.AuthManager.getAppleAuthnTokenInternal(android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.getBeanfunAuthnTokenInternal(android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.getFacebookAuthnTokenInternal(android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.getGoogleAuthnTokenInternal(android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.getGuestToken(com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+private void com.ncsoft.android.mop.AuthManager.getGuestToken(com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.getTwitterAuthnTokenInternal(android.app.Activity,java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.googleLogoutInternal(android.app.Activity,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.googlePlayGameLogoutInternal(android.app.Activity,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.guestLoginInternal(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private boolean com.ncsoft.android.mop.AuthManager.isValidLoginWebUrl()
+private boolean com.ncsoft.android.mop.AuthManager.isValidThirdPartyAuthWebUrl()
+private void com.ncsoft.android.mop.AuthManager.lineLogoutInternal(com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.loginFinish(com.ncsoft.android.mop.AuthManager$LoginSessionInfo,com.ncsoft.android.mop.AuthManager$LoginSessionListener,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+private void com.ncsoft.android.mop.AuthManager.putSmsAgreement(boolean,java.lang.String,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.responseLoginUrlError(int,com.ncsoft.android.mop.NcCallback)
+private void com.ncsoft.android.mop.AuthManager.showGuardian(com.ncsoft.android.mop.AuthManager$LoginSessionInfo,java.lang.String,com.ncsoft.android.mop.AuthManager$LoginSessionListener,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+private void com.ncsoft.android.mop.AuthManager.showSimpleLogin(android.app.Activity,java.util.List,boolean,boolean,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.startLoginWeb(android.app.Activity,int,int,java.lang.String,java.util.HashMap)
+private void com.ncsoft.android.mop.AuthManager.startLoginWeb(android.app.Activity,int,int,java.util.HashMap)
+private void com.ncsoft.android.mop.AuthManager.startMovingGameAccountIdInternal(com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+private void com.ncsoft.android.mop.AuthManager.twitterLogoutInternal(com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.associateAccount(com.ncsoft.android.mop.NcAuthProvider,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.authnToken(java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.authnToken(java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.authnToken(java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.completeShowLoginByNc(android.app.Activity,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.NcResult)
+void com.ncsoft.android.mop.AuthManager.createSession(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.createTransferCode(com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.errorShowLoginByNp(android.app.Activity,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.apigate.NcJSONObject)
+void com.ncsoft.android.mop.AuthManager.errorShowLoginByThirdPartyLogin(com.ncsoft.android.mop.NcAuthProvider,android.app.Activity,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData,java.lang.Object[])
+org.json.JSONObject com.ncsoft.android.mop.AuthManager.getCurrentSession()
+void com.ncsoft.android.mop.AuthManager.getGameAccountIdMovableState(com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.getGameAccountInfoByTransferCode(java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.linkExternalAccount(com.ncsoft.android.mop.NcAuthProvider,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.login(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.AuthManager$LoginSessionListener)
+void com.ncsoft.android.mop.AuthManager.login(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.AuthManager$LoginSessionListener,com.ncsoft.android.mop.AuthManager$PolicyOpenListener)
+void com.ncsoft.android.mop.AuthManager.login(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginAuthProvider(android.app.Activity,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.NcCallback,int,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginForTransferAccount(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginPlaync(android.app.Activity,int,com.ncsoft.android.mop.NcCallback,int,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginThirdPartyAuthWeb(android.app.Activity,com.ncsoft.android.mop.NcAuthProvider,boolean,com.ncsoft.android.mop.NcCallback,int,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginViaAuthProviderCode(android.app.Activity,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginViaGuest(android.app.Activity,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.loginViaPlaync(android.app.Activity,int,com.ncsoft.android.mop.NcCallback,int,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.logout(com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.logout(com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.logout(com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.logoutAll(android.app.Activity,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.logoutAuthProvider(android.app.Activity,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.moveGameAccountId(java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.moveGameAccountIdByTransferCode(java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.oauthToken(com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+public void com.ncsoft.android.mop.AuthManager.onLoggedIn()
+public void com.ncsoft.android.mop.AuthManager.onLoggedOut()
+void com.ncsoft.android.mop.AuthManager.putAccessTokenByProvider(java.lang.String,com.ncsoft.android.mop.NcAuthProvider,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener,com.ncsoft.android.mop.MetaData)
+boolean com.ncsoft.android.mop.AuthManager.removeGuestToken()
+void com.ncsoft.android.mop.AuthManager.showLogin(android.app.Activity,java.util.List,boolean,boolean,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.showSimpleLoginWithVerifySession(android.app.Activity,java.util.List,boolean,boolean,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.verifySession(com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+void com.ncsoft.android.mop.AuthManager.verifySessionForSimpleLogin(java.lang.String,java.lang.String,com.ncsoft.android.mop.NcCallback,com.ncsoft.android.mop.MetaData)
+Tracing private com.ncsoft.android.mop.AuthManager()
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.verifySession
+arg[0]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[1]: MetaData{apiClass='NcAuth', apiMethod='verifySession', apiDomain=1126, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949284198888', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.verifySession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.verifySession
+arg[0]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[1]: MetaData{apiClass='NcAuth', apiMethod='verifySession', apiDomain=1126, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949286400932', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.verifySession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.authnToken
+arg[0]: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+arg[1]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[2]: MetaData{apiClass='NcAuth', apiMethod='getAuthnToken', apiDomain=1105, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949286699152', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.authnToken
+arg[0]: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+arg[1]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[2]: null => null
+arg[3]: MetaData{apiClass='NcAuth', apiMethod='getAuthnToken', apiDomain=1105, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949286699152', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.authnToken[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.authnToken[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.verifySession
+arg[0]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[1]: MetaData{apiClass='NcAuth', apiMethod='verifySession', apiDomain=1126, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949317588361', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.verifySession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.authnToken
+arg[0]: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+arg[1]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[2]: MetaData{apiClass='NcAuth', apiMethod='getAuthnToken', apiDomain=1105, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949318878430', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.authnToken
+arg[0]: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+arg[1]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[2]: null => null
+arg[3]: MetaData{apiClass='NcAuth', apiMethod='getAuthnToken', apiDomain=1105, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949318878430', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.authnToken[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.authnToken[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.reloadSessionFromNcMobileSdk(Nc2NcMobileSdkSessionProvider.java:27)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:19)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.reloadSessionFromNcMobileSdk(Nc2NcMobileSdkSessionProvider.java:27)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:19)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.NcChannel.Connect(NcChannel.java:182)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.authnToken
+arg[0]: 6C09ADAC-1121-4527-ABC0-31707DBDF0B3 => "6C09ADAC-1121-4527-ABC0-31707DBDF0B3"
+arg[1]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[2]: MetaData{apiClass='NcAuth', apiMethod='getAuthnToken', apiDomain=1105, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949329362972', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.NcChannel.Connect(NcChannel.java:182)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.authnToken
+arg[0]: 6C09ADAC-1121-4527-ABC0-31707DBDF0B3 => "6C09ADAC-1121-4527-ABC0-31707DBDF0B3"
+arg[1]: [object Object] => "<instance: com.ncsoft.android.mop.NcCallback, $className: com.ncsoft.android.mop.ApiLogHelper$1>"
+arg[2]: null => null
+arg[3]: MetaData{apiClass='NcAuth', apiMethod='getAuthnToken', apiDomain=1105, logApiKey='null', logActivated=false, logTag='null', logUuid='null', logTid='1618949329362972', scvLogUrl='null', logSid=0', nativeRequestStartTime=0', npRequestStartTime=0', scvNativeParams=null', scvNpParams=null} => "<instance: com.ncsoft.android.mop.MetaData>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+	at com.ncsoft.android.mop.AuthManager.authnToken(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.NcChannel.Connect(NcChannel.java:182)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.authnToken[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.AuthManager.authnToken[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:35)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:36)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.AuthManager
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.get
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.get(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+*** exiting com.ncsoft.android.mop.AuthManager.get[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.AuthManager
+com.ncsoft.android.mop.apigate.NcJSONObject 	mCreatedSessionInfo => null => null
+com.ncsoft.android.mop.NcLoginDialogFragment 	mLoginDialogFragment => null => null
+com.ncsoft.android.mop.NcSimpleLoginDialogFragment 	mSimpleLoginDialogFragment => null => null
+java.lang.String 	TAG => AuthManager => "AuthManager"
+com.ncsoft.android.mop.AuthManager 	mInstance => com.ncsoft.android.mop.AuthManager@8d5488f => "<instance: com.ncsoft.android.mop.AuthManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.AuthManager.getCurrentSession
+java.lang.Throwable
+	at com.ncsoft.android.mop.AuthManager.getCurrentSession(Native Method)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:345)
+	at com.ncsoft.android.mop.NcAuth.getCurrentSession(NcAuth.java:335)
+	at com.ncsoft.sdk.community._NcMobileSdkBridge.session(_NcMobileSdkBridge.java:35)
+	at com.ncsoft.sdk.community.board.session.Nc2NcMobileSdkSessionProvider.getSession(Nc2NcMobileSdkSessionProvider.java:20)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:262)
+	at com.ncsoft.sdk.community.board.api.BSession.getAuthorization(BSession.java:247)
+	at com.ncsoft.sdk.community.board.api.ne.Nc2NeWorker.doWork(Nc2NeWorker.java:63)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleWork(NeAsyncHandler.java:33)
+	at com.ncsoft.sdk.community.board.ne.internal.NeAsyncHandler.handleMessage(NeAsyncHandler.java:76)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+[39;49;00m
+[30;01m
+retval: {"session":"81924D30-B818-4881-AE12-C72E461B46F2","session_secret":"DjkvJurHdfq7l8EmzHgtVMvNRMMtu1d0JIifxHJcBNXRBW9n"} => "<instance: org.json.JSONObject>"
+*** exiting com.ncsoft.android.mop.AuthManager.getCurrentSession[39;49;00m

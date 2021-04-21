@@ -1,0 +1,7 @@
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 5
+replaced fork func count: 6
+replaced fork func count: 7

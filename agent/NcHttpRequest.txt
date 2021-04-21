@@ -1,0 +1,683 @@
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.NcHttpRequest" on path: DexPathList[[zip file "/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk"],nativeLibraryDirectories=[/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at traceClass (/lineagemhook.js:125)
+    at <anonymous> (/lineagemhook.js:833)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 1
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.getSession [1 overload(s)][39;49;00m
+replaced fork func count: 2
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.setRefreshed [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.setSession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.$init [5 overload(s)][39;49;00m
+[32;01m	Spec: => 
+java.lang.String com.ncsoft.android.mop.NcHttpRequest.getSession()
+public void com.ncsoft.android.mop.NcHttpRequest.setRefreshed(java.lang.String)
+public void com.ncsoft.android.mop.NcHttpRequest.setSession(java.lang.String)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,java.lang.Integer,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,java.lang.Integer,com.ncsoft.android.mop.apigate.BaseHttpRequest$ResponseType,int,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,java.lang.Integer,com.ncsoft.android.mop.apigate.BaseHttpRequest$ResponseType,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 => "/MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@4e4872a => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.ConfigManager$1>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.ConfigRequest.getPolicyKey(ConfigRequest.java:34)
+	at com.ncsoft.android.mop.ConfigManager.getPolicyKey(ConfigManager.java:82)
+	at com.ncsoft.android.mop.ConfigManager.getConfiguration(ConfigManager.java:148)
+	at com.ncsoft.android.mop.NcConfiguration.getConfiguration(NcConfiguration.java:69)
+	at com.ncsoft.android.mop.NcConfiguration.getConfiguration(NcConfiguration.java:56)
+	at com.lineage.LinmPlatformSdk.Initialize(LinmPlatformSdk.java:62)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeInit(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onSurfaceCreated(Cocos2dxRenderer.java:74)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1539)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 => "/MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@4e4872a => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.ConfigManager$1>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:26)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.ConfigRequest.getPolicyKey(ConfigRequest.java:34)
+	at com.ncsoft.android.mop.ConfigManager.getPolicyKey(ConfigManager.java:82)
+	at com.ncsoft.android.mop.ConfigManager.getConfiguration(ConfigManager.java:148)
+	at com.ncsoft.android.mop.NcConfiguration.getConfiguration(NcConfiguration.java:69)
+	at com.ncsoft.android.mop.NcConfiguration.getConfiguration(NcConfiguration.java:56)
+	at com.lineage.LinmPlatformSdk.Initialize(LinmPlatformSdk.java:62)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeInit(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onSurfaceCreated(Cocos2dxRenderer.java:74)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1539)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+replaced fork func count: 3
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 => "/MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@f9bebf6 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.ConfigManager$2$1>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.ConfigRequest.getConfiguration(ConfigRequest.java:48)
+	at com.ncsoft.android.mop.ConfigManager$2.onCompleted(ConfigManager.java:152)
+	at com.ncsoft.android.mop.ConfigManager$1.onResponse(ConfigManager.java:114)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 => "/MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@f9bebf6 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.ConfigManager$2$1>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:26)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.ConfigRequest.getConfiguration(ConfigRequest.java:48)
+	at com.ncsoft.android.mop.ConfigManager$2.onCompleted(ConfigManager.java:152)
+	at com.ncsoft.android.mop.ConfigManager$1.onResponse(ConfigManager.java:114)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /MobileAppConfigSdk/app/policy/maintenance => "/MobileAppConfigSdk/app/policy/maintenance"
+arg[2]: {"app_id":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","app_version":"1.6.12","app_config_type":2,"platform_type":1,"language_code":"zh_TW","check_value":"|40:4e:36:25:b6:d2","time_zone":"+08:00","is_maintenance_time_required":"1"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@e8e5ac4 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: 33 => "<instance: java.lang.Integer>"
+arg[5]: null => null
+arg[6]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.ConfigManager$4$1$1>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.ConfigRequest.getMaintenanceInfo(ConfigRequest.java:80)
+	at com.ncsoft.android.mop.ConfigManager$4$1.onCompleted(ConfigManager.java:577)
+	at com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:131)
+	at com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:102)
+	at android.os.AsyncTask.finish(AsyncTask.java:695)
+	at android.os.AsyncTask.-wrap1(Unknown Source:0)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:712)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /campaigns/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/placements?platform=android&did=32cf43d6-9b3f-44f3-be95-7022e855d2d8&except=clm210420_00004,clm210420_00002,clm210420_00003 => "/campaigns/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/placements?platform=android&did=32cf43d6-9b3f-44f3-be95-7022e855d2d8&except=clm210420_00004,clm210420_00002,clm210420_00003"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@6157a9 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: 1 => "<instance: java.lang.Integer>"
+arg[5]: array => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$ResponseType>"
+arg[6]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.CampaignManager$5>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.CampaignManager.prefetchCampaignsInternal(CampaignManager.java:241)
+	at com.ncsoft.android.mop.CampaignManager.prefetchCampaigns(CampaignManager.java:172)
+	at com.ncsoft.android.mop.NcCampaign.prefetchCampaigns(NcCampaign.java:90)
+	at com.ncsoft.android.mop.NcCampaign.prefetchCampaigns(NcCampaign.java:77)
+	at com.lineage.CampaignUtil$2.run(CampaignUtil.java:32)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /MobileAppConfigSdk/app/policy/maintenance => "/MobileAppConfigSdk/app/policy/maintenance"
+arg[2]: {"app_id":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","app_version":"1.6.12","app_config_type":2,"platform_type":1,"language_code":"zh_TW","check_value":"|40:4e:36:25:b6:d2","time_zone":"+08:00","is_maintenance_time_required":"1"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@5bc3e5c => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: 33 => "<instance: java.lang.Integer>"
+arg[5]: null => null
+arg[6]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.ConfigManager$4$1$1>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.ConfigRequest.getMaintenanceInfo(ConfigRequest.java:80)
+	at com.ncsoft.android.mop.ConfigManager$4$1.onCompleted(ConfigManager.java:577)
+	at com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:131)
+	at com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:102)
+	at android.os.AsyncTask.finish(AsyncTask.java:695)
+	at android.os.AsyncTask.-wrap1(Unknown Source:0)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:712)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession@5d3ceeb => "<instance: com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession>"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@8fce448 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$17>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.AuthManager.verifySession(AuthManager.java:897)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /sessions/v1.0/78EDB4DD-DDA3-49C1-A297-FFAB1E2C4656 => "/sessions/v1.0/78EDB4DD-DDA3-49C1-A297-FFAB1E2C4656"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@8fce448 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$17>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:39)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.AuthManager.verifySession(AuthManager.java:897)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /backup_auth/v1.0/my/auth_types => "/backup_auth/v1.0/my/auth_types"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@e1ffcf4 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.BackupAuthManager$5>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.BackupAuthManager.getAuthTypes(BackupAuthManager.java:248)
+	at com.ncsoft.android.mop.NcBackupAuth.getAuthTypes(NcBackupAuth.java:102)
+	at com.ncsoft.android.mop.NcBackupAuth.getAuthTypes(NcBackupAuth.java:91)
+	at com.lineage.SecondaryAuthUtil.GetAuthTypes(SecondaryAuthUtil.java:112)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /backup_auth/v1.0/my/auth_types => "/backup_auth/v1.0/my/auth_types"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@e1ffcf4 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.BackupAuthManager$5>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:26)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.BackupAuthManager.getAuthTypes(BackupAuthManager.java:248)
+	at com.ncsoft.android.mop.NcBackupAuth.getAuthTypes(NcBackupAuth.java:102)
+	at com.ncsoft.android.mop.NcBackupAuth.getAuthTypes(NcBackupAuth.java:91)
+	at com.lineage.SecondaryAuthUtil.GetAuthTypes(SecondaryAuthUtil.java:112)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /secondary_auth/v1.0/my/auth;start => "/secondary_auth/v1.0/my/auth;start"
+arg[2]: {"audience_app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@ab9f460 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.SecondaryAuthManager$10>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.SecondaryAuthManager.startSecondaryAuthAuthentication(SecondaryAuthManager.java:703)
+	at com.ncsoft.android.mop.NcSecondaryAuth.startSecondaryAuthAuthentication(NcSecondaryAuth.java:66)
+	at com.ncsoft.android.mop.NcSecondaryAuth.startSecondaryAuthAuthentication(NcSecondaryAuth.java:53)
+	at com.lineage.SecondaryAuthUtil.StartSecondaryAuthAuthentication(SecondaryAuthUtil.java:29)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /secondary_auth/v1.0/my/auth;start => "/secondary_auth/v1.0/my/auth;start"
+arg[2]: {"audience_app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@ab9f460 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.SecondaryAuthManager$10>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:26)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.SecondaryAuthManager.startSecondaryAuthAuthentication(SecondaryAuthManager.java:703)
+	at com.ncsoft.android.mop.NcSecondaryAuth.startSecondaryAuthAuthentication(NcSecondaryAuth.java:66)
+	at com.ncsoft.android.mop.NcSecondaryAuth.startSecondaryAuthAuthentication(NcSecondaryAuth.java:53)
+	at com.lineage.SecondaryAuthUtil.StartSecondaryAuthAuthentication(SecondaryAuthUtil.java:29)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /secondary_auth/v1.0/my/auth;finish => "/secondary_auth/v1.0/my/auth;finish"
+arg[2]: {"session_id":"555FA398-2AA1-4611-915D-A618ED0F3407"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@739f68c => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.SecondaryAuthManager$11>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.SecondaryAuthManager.finishSecondaryAuthAuthentication(SecondaryAuthManager.java:741)
+	at com.ncsoft.android.mop.NcSecondaryAuth.finishSecondaryAuthAuthentication(NcSecondaryAuth.java:83)
+	at com.ncsoft.android.mop.NcSecondaryAuth.finishSecondaryAuthAuthentication(NcSecondaryAuth.java:70)
+	at com.lineage.SecondaryAuthUtil.FinishSecondaryAuthAuthentication(SecondaryAuthUtil.java:42)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /secondary_auth/v1.0/my/auth;finish => "/secondary_auth/v1.0/my/auth;finish"
+arg[2]: {"session_id":"555FA398-2AA1-4611-915D-A618ED0F3407"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@739f68c => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.SecondaryAuthManager$11>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:26)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.SecondaryAuthManager.finishSecondaryAuthAuthentication(SecondaryAuthManager.java:741)
+	at com.ncsoft.android.mop.NcSecondaryAuth.finishSecondaryAuthAuthentication(NcSecondaryAuth.java:83)
+	at com.ncsoft.android.mop.NcSecondaryAuth.finishSecondaryAuthAuthentication(NcSecondaryAuth.java:70)
+	at com.lineage.SecondaryAuthUtil.FinishSecondaryAuthAuthentication(SecondaryAuthUtil.java:42)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession@1d5ef78 => "<instance: com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession>"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@5ddb651 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$17>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.AuthManager.verifySession(AuthManager.java:897)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 0 => 0
+arg[1]: /sessions/v1.0/78EDB4DD-DDA3-49C1-A297-FFAB1E2C4656 => "/sessions/v1.0/78EDB4DD-DDA3-49C1-A297-FFAB1E2C4656"
+arg[2]: null => null
+arg[3]: com.ncsoft.android.mop.NcAccessToken@5ddb651 => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$17>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:39)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.AuthManager.verifySession(AuthManager.java:897)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+	at com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /sessions/v1.0/authn_token => "/sessions/v1.0/authn_token"
+arg[2]: {"app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@b76668d => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$19>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken(AuthRequest.java:31)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1060)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.NcHttpRequest.$init
+arg[0]: 1 => 1
+arg[1]: /sessions/v1.0/authn_token => "/sessions/v1.0/authn_token"
+arg[2]: {"app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"} => "<instance: org.json.JSONObject, $className: com.ncsoft.android.mop.apigate.NcJSONObject>"
+arg[3]: com.ncsoft.android.mop.NcAccessToken@b76668d => "<instance: com.ncsoft.android.mop.NcAccessToken>"
+arg[4]: null => null
+arg[5]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$19>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(NcHttpRequest.java:26)
+	at com.ncsoft.android.mop.NcHttpRequest.<init>(Native Method)
+	at com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken(AuthRequest.java:31)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1060)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.ncsoft.android.mop.NcHttpRequest.$init[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => true => class com.ncsoft.android.mop.NcHttpRequest
+java.lang.String 	mSession => null => null
+com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession 	mUrlFormatWithSession => null => null
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+[39;49;00m
+[30;01mundefined[39;49;00m

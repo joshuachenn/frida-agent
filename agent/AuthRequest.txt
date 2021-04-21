@@ -1,0 +1,76 @@
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.apigate.requests.AuthRequest" on path: DexPathList[[zip file "/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk"],nativeLibraryDirectories=[/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at traceClass (/lineagemhook.js:125)
+    at <anonymous> (/lineagemhook.js:832)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 5
+replaced fork func count: 6
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken [1 overload(s)][39;49;00m
+replaced fork func count: 1
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.login [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.loginFinish [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.loginSessionToken [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.logout [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.refreshSession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.apigate.requests.AuthRequest.$init [1 overload(s)][39;49;00m
+[32;01m	Spec: => 
+public static com.ncsoft.android.mop.NcHttpRequest com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken(java.lang.String,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+private static com.ncsoft.android.mop.NcHttpRequest com.ncsoft.android.mop.apigate.requests.AuthRequest.login(java.lang.String,java.lang.String,com.ncsoft.android.mop.NcAuthProvider,boolean,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+public static com.ncsoft.android.mop.NcHttpRequest com.ncsoft.android.mop.apigate.requests.AuthRequest.loginFinish(java.lang.String,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+public static com.ncsoft.android.mop.NcHttpRequest com.ncsoft.android.mop.apigate.requests.AuthRequest.loginSessionToken(java.lang.String,com.ncsoft.android.mop.NcAuthProvider,boolean,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+public static com.ncsoft.android.mop.NcHttpRequest com.ncsoft.android.mop.apigate.requests.AuthRequest.logout(java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+public static com.ncsoft.android.mop.NcHttpRequest com.ncsoft.android.mop.apigate.requests.AuthRequest.refreshSession(java.lang.String,java.lang.String,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.apigate.requests.AuthRequest()
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.ncsoft.android.mop.apigate.requests.AuthRequest
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken
+arg[0]: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+arg[1]: 78EDB4DD-DDA3-49C1-A297-FFAB1E2C4656 => "78EDB4DD-DDA3-49C1-A297-FFAB1E2C4656"
+arg[2]: [object Object] => "<instance: com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener, $className: com.ncsoft.android.mop.AuthManager$19>"
+java.lang.Throwable
+	at com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken(Native Method)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1060)
+	at com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+	at com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: com.ncsoft.android.mop.NcHttpRequest@6157a9 => "<instance: com.ncsoft.android.mop.NcHttpRequest>"
+*** exiting com.ncsoft.android.mop.apigate.requests.AuthRequest.getAuthnToken[39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.getSession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.setRefreshed [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.setSession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.ncsoft.android.mop.NcHttpRequest.$init [5 overload(s)][39;49;00m
+[32;01m	Spec: => 
+java.lang.String com.ncsoft.android.mop.NcHttpRequest.getSession()
+public void com.ncsoft.android.mop.NcHttpRequest.setRefreshed(java.lang.String)
+public void com.ncsoft.android.mop.NcHttpRequest.setSession(java.lang.String)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,com.ncsoft.android.mop.NcHttpRequest$UrlFormatWithSession,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,java.lang.Integer,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,java.lang.Integer,com.ncsoft.android.mop.apigate.BaseHttpRequest$ResponseType,int,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+Tracing public com.ncsoft.android.mop.NcHttpRequest(int,java.lang.String,org.json.JSONObject,com.ncsoft.android.mop.NcAccessToken,java.lang.Integer,com.ncsoft.android.mop.apigate.BaseHttpRequest$ResponseType,com.ncsoft.android.mop.apigate.BaseHttpRequest$Listener)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[39;49;00m
