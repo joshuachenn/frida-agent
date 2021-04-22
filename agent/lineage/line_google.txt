@@ -1,0 +1,170 @@
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+0797cb84eb014876b9e0521b67c8b08e: ;
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.BaseManager" on path: DexPathList[[zip file "/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk"],nativeLibraryDirectories=[/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at <anonymous> (/lineagemhook.js:777)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 5
+replaced fork func count: 6
+replaced fork func count: 7
+0797cb84eb014876b9e0521b67c8b08e: ncmop.session;
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  null
+===============login stack start =============
+com.ncsoft.android.mop.AuthManager.login(Native Method)
+com.ncsoft.android.mop.AuthManager.login(AuthManager.java:601)
+com.ncsoft.android.mop.AuthManager.guestLoginInternal(AuthManager.java:544)
+com.ncsoft.android.mop.AuthManager.loginViaGuest(AuthManager.java:518)
+com.ncsoft.android.mop.AuthManager.loginViaAuthProviderCode(AuthManager.java:2213)
+com.ncsoft.android.mop.NcAuth.loginViaAuthProviderCode(NcAuth.java:463)
+com.ncsoft.android.mop.NcAuth.loginViaAuthProviderCode(NcAuth.java:425)
+com.lineage.LinmPlatformSdk.LoginViaAuthProviderCode(LinmPlatformSdk.java:99)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============login stack end ==============
+sssssssssssssssss
+===============loginSessionToken stack start =============
+com.ncsoft.android.mop.apigate.requests.AuthRequest.loginSessionToken(Native Method)
+com.ncsoft.android.mop.AuthManager.login(AuthManager.java:608)
+com.ncsoft.android.mop.AuthManager.login(Native Method)
+com.ncsoft.android.mop.AuthManager.login(AuthManager.java:601)
+com.ncsoft.android.mop.AuthManager.guestLoginInternal(AuthManager.java:544)
+com.ncsoft.android.mop.AuthManager.loginViaGuest(AuthManager.java:518)
+com.ncsoft.android.mop.AuthManager.loginViaAuthProviderCode(AuthManager.java:2213)
+com.ncsoft.android.mop.NcAuth.loginViaAuthProviderCode(NcAuth.java:463)
+com.ncsoft.android.mop.NcAuth.loginViaAuthProviderCode(NcAuth.java:425)
+com.lineage.LinmPlatformSdk.LoginViaAuthProviderCode(LinmPlatformSdk.java:99)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============loginSessionToken stack end ==============
+getSession:  null
+getSession:  null
+BaseManager.loginInternal!!!
+putSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+loginByProviderCompleted: {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","login_name":"ZMYP0VRZZ9Q9@plaync.com","user_name":"Guest"},"result":true}
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  4912EEC3-8751-4B82-854C-D463616E4C1A
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  null
+getSession:  null
+getSession:  null
+loginByProviderCompleted: {"error":{"domain":1114,"error":100208,"message":"GoogleSignInResult=Status{statusCode=API_NOT_CONNECTED, resolution=null}"},"result":false}
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  null
+getSession:  null
+getSession:  null
+loginByProviderCompleted: {"error":{"domain":1114,"error":100208,"message":"GoogleSignInResult=Status{statusCode=API_NOT_CONNECTED, resolution=null}"},"result":false}
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  null
+getSession:  null
+getSession:  null
+loginByProviderCompleted: {"error":{"domain":1114,"error":100208,"message":"GoogleSignInResult=Status{statusCode=API_NOT_CONNECTED, resolution=null}"},"result":false}
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null

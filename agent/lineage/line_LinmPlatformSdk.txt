@@ -1,0 +1,2555 @@
+Error: java.lang.ClassNotFoundException: Didn't find class "com.lineage.LinmPlatformSdk" on path: DexPathList[[zip file "/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk"],nativeLibraryDirectories=[/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at traceClass (/lineagemhook.js:125)
+    at <anonymous> (/lineagemhook.js:862)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 5
+replaced fork func count: 6
+replaced fork func count: 7
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.ConfigServerAppVersion [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetAuthnToken [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetConfigServerUrl [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetDeviceModelName [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetGameAccountID [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetLocalString [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetMobileSDKLanguageCode [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetPermissionList [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.GetPgId [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.Initialize [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.IsAlreadyConfigExist [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.IsSdkLogEnable [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.LoginViaAuthProviderCode [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.LogoutAll [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.OpenWebView [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.PrintInfoLog [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.RequestAssociatedAccountInfo [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.RequestPermission [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.ShowAgreement [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.VerifySession [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.access$000 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.access$100 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.access$200 [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.errorGetConfig [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.getAuthnTokenCompleted [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.getCrashReporterKeys [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.initCrashReporter [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.initNcConsole [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.loginByProviderCompleted [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.logoutAllCompleted [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeGetAccountWebUrl [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeGetApiUrl [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeGetAppSignature [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeGetClientAppId [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeGetLoginWebUrl [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeGetServerAppId [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.nativeRequestAssociatedAccountInfoCompleted [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.responseGetConfig [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.responsePermission [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.showAgreementCompleted [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.verifySessionCompleted [1 overload(s)][39;49;00m
+[31;01mTracing Method : com.lineage.LinmPlatformSdk.$init [1 overload(s)][39;49;00m
+[32;01m	Spec: => 
+public static native java.lang.String com.lineage.LinmPlatformSdk.ConfigServerAppVersion()
+public static void com.lineage.LinmPlatformSdk.GetAuthnToken()
+public static native java.lang.String com.lineage.LinmPlatformSdk.GetConfigServerUrl()
+public static java.lang.String com.lineage.LinmPlatformSdk.GetDeviceModelName()
+public static java.lang.String com.lineage.LinmPlatformSdk.GetGameAccountID()
+public static java.lang.String com.lineage.LinmPlatformSdk.GetLocalString(java.lang.String)
+public static native java.lang.String com.lineage.LinmPlatformSdk.GetMobileSDKLanguageCode()
+public static java.lang.String com.lineage.LinmPlatformSdk.GetPermissionList()
+public static int com.lineage.LinmPlatformSdk.GetPgId()
+public static void com.lineage.LinmPlatformSdk.Initialize(java.lang.String[])
+public static native boolean com.lineage.LinmPlatformSdk.IsAlreadyConfigExist()
+public static native boolean com.lineage.LinmPlatformSdk.IsSdkLogEnable()
+public static void com.lineage.LinmPlatformSdk.LoginViaAuthProviderCode(java.lang.String)
+public static void com.lineage.LinmPlatformSdk.LogoutAll()
+public static void com.lineage.LinmPlatformSdk.OpenWebView(java.lang.String,boolean)
+private static void com.lineage.LinmPlatformSdk.PrintInfoLog(java.lang.String)
+public static void com.lineage.LinmPlatformSdk.RequestAssociatedAccountInfo()
+public static void com.lineage.LinmPlatformSdk.RequestPermission(org.json.JSONObject)
+public static void com.lineage.LinmPlatformSdk.ShowAgreement(int,java.util.Map)
+public static void com.lineage.LinmPlatformSdk.VerifySession()
+static void com.lineage.LinmPlatformSdk.access$000(java.lang.String)
+static void com.lineage.LinmPlatformSdk.access$100(com.ncsoft.android.mop.NcResult)
+static void com.lineage.LinmPlatformSdk.access$200(com.ncsoft.android.mop.NcResult)
+public static native void com.lineage.LinmPlatformSdk.errorGetConfig(java.lang.String)
+public static native void com.lineage.LinmPlatformSdk.getAuthnTokenCompleted(java.lang.String)
+private static java.util.List com.lineage.LinmPlatformSdk.getCrashReporterKeys()
+private static void com.lineage.LinmPlatformSdk.initCrashReporter(com.ncsoft.android.mop.NcResult)
+private static void com.lineage.LinmPlatformSdk.initNcConsole(com.ncsoft.android.mop.NcResult)
+public static native void com.lineage.LinmPlatformSdk.loginByProviderCompleted(java.lang.String)
+public static native void com.lineage.LinmPlatformSdk.logoutAllCompleted(java.lang.String)
+public static native java.lang.String com.lineage.LinmPlatformSdk.nativeGetAccountWebUrl()
+public static native java.lang.String com.lineage.LinmPlatformSdk.nativeGetApiUrl()
+public static native java.lang.String com.lineage.LinmPlatformSdk.nativeGetAppSignature()
+public static native java.lang.String com.lineage.LinmPlatformSdk.nativeGetClientAppId()
+public static native java.lang.String com.lineage.LinmPlatformSdk.nativeGetLoginWebUrl()
+public static native java.lang.String com.lineage.LinmPlatformSdk.nativeGetServerAppId()
+public static native void com.lineage.LinmPlatformSdk.nativeRequestAssociatedAccountInfoCompleted(java.lang.String)
+public static native void com.lineage.LinmPlatformSdk.responseGetConfig(java.lang.String)
+public static native void com.lineage.LinmPlatformSdk.responsePermission(boolean,boolean)
+public static native void com.lineage.LinmPlatformSdk.showAgreementCompleted(java.lang.String)
+public static native void com.lineage.LinmPlatformSdk.verifySessionCompleted(java.lang.String)
+Tracing public com.lineage.LinmPlatformSdk()
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_01_Nd_Nd_Text_1_Label_1 => "Guide_01_Nd_Nd_Text_1_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請選擇要登錄在快捷欄中的道具. => "請選擇要登錄在快捷欄中的道具."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_01_Nd_Nd_Text_2_Label_1 => "Guide_01_Nd_Nd_Text_2_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請登錄道具在快捷欄中. => "請登錄道具在快捷欄中."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_02_Nd_Nd_Text_1_Label_1 => "Guide_02_Nd_Nd_Text_1_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選選單. => "請點選選單."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_03_Nd_Nd_Text_1_Label_1 => "Guide_03_Nd_Nd_Text_1_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選怪物 => "請點選怪物"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_03_Nd_Nd_Text_2_Label_1 => "Guide_03_Nd_Nd_Text_2_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選攻擊按鈕. => "請點選攻擊按鈕."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_03_Nd_Nd_Text_3_Label_1 => "Guide_03_Nd_Nd_Text_3_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選怪物. => "請點選怪物."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Popup_Label_Grade => "Guide_04_Nd_Nd_Popup_Label_Grade"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 等級清單 => "等級清單"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Popup_Label_Doll => "Guide_04_Nd_Nd_Popup_Label_Doll"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 快速召喚 => "快速召喚"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Popup_Label_Change => "Guide_04_Nd_Nd_Popup_Label_Change"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 快速變身 => "快速變身"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Text_1_Label_1 => "Guide_04_Nd_Nd_Text_1_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選魔法娃娃召喚卷軸 => "請點選魔法娃娃召喚卷軸"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Text_2_Label_1 => "Guide_04_Nd_Nd_Text_2_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選登錄的魔法娃娃. => "請點選登錄的魔法娃娃."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Text_3_Label_1 => "Guide_04_Nd_Nd_Text_3_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選變身卷軸. => "請點選變身卷軸."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_04_Nd_Nd_Text_4_Label_1 => "Guide_04_Nd_Nd_Text_4_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點選登錄的變身. => "請點選登錄的變身."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Nd_Nd_Upgrade_Label_Title => "Guide_05_Nd_Nd_Upgrade_Label_Title"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請選擇要強化的道具. => "請選擇要強化的道具."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Nd_Nd_Upgrade_Label_Title_0 => "Guide_05_Nd_Nd_Upgrade_Label_Title_0"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: +8 暗黑雙刀強化 => "+8 暗黑雙刀強化"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Nd_Nd_Upgrade_Btn_Upgrade => "Guide_05_Nd_Nd_Upgrade_Btn_Upgrade"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 強 化 開 始 => "強 化 開 始"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Nd_Nd_Text_1_Label_1 => "Guide_05_Nd_Nd_Text_1_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請選擇要強化的道具. => "請選擇要強化的道具."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Nd_Nd_Text_2_Label_1 => "Guide_05_Nd_Nd_Text_2_Label_1"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請按開始強化按鈕. => "請按開始強化按鈕."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Text_01 => "Guide_05_Text_01"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 請點擊畫面. => "請點擊畫面."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Text_02 => "Guide_05_Text_02"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 結果確認 => "結果確認"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Text_03 => "Guide_05_Text_03"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 武器命中 => "武器命中"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Text_04 => "Guide_05_Text_04"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 追加傷害 => "追加傷害"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Text_05 => "Guide_05_Text_05"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 強化成功. => "強化成功."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Guide_05_Text_06 => "Guide_05_Text_06"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 因強化失敗裝備消失. => "因強化失敗裝備消失."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Notice_Title => "Intro_Popup_Notice_Title"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 提醒 => "提醒"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Notice_Notice => "Intro_Popup_Notice_Notice"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 網路連線斷線狀態.
+請再次確認後使用 => "網路連線斷線狀態.\n請再次確認後使用"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Close => "Intro_Popup_Close"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 結束 => "結束"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Title => "Intro_Popup_Update_Title"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 提醒 => "提醒"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Notice => "Intro_Popup_Update_Notice"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 需要額外下載檔案. 要進行更新嗎? => "需要額外下載檔案. 要進行更新嗎?"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Wifi => "Intro_Popup_Update_Wifi"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 沒有連線Wi-Fi時，可能會有額外的費用產生. => "沒有連線Wi-Fi時，可能會有額外的費用產生."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Cancel => "Intro_Popup_Update_Cancel"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 取消 => "取消"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_OK => "Intro_Popup_Update_OK"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 確認 => "確認"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Lack_Title => "Intro_Popup_Update_Lack_Title"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 提醒 => "提醒"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Lack_Notice => "Intro_Popup_Update_Lack_Notice"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 存放空間不足.
+存放空間確認後再進行. => "存放空間不足.\n存放空間確認後再進行."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Lack_NeedSpace => "Intro_Popup_Update_Lack_NeedSpace"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 需要空間 : => "需要空間 :"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Lack_OK => "Intro_Popup_Update_Lack_OK"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 確認 => "確認"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Error_Title => "Intro_Popup_Update_Error_Title"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 提醒 => "提醒"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Error_Notice => "Intro_Popup_Update_Error_Notice"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 下載中發生錯誤.
+網路連線狀態以及確認容量是否充足，確認後
+重新嘗試. => "下載中發生錯誤.\n網路連線狀態以及確認容量是否充足，確認後\n重新嘗試."
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Error_OK => "Intro_Popup_Update_Error_OK"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 確認 => "確認"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Error_Title => "Intro_Popup_Update_Error_Title"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 提醒 => "提醒"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Update_Error_OK => "Intro_Popup_Update_Error_OK"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 確認 => "確認"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_Popup_TextA => "Permission_Popup_TextA"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 為了順利進行天堂M遊戲體驗，需要勾選以下權限內容 => "為了順利進行天堂M遊戲體驗，需要勾選以下權限內容"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_Popup_TextC => "Permission_Popup_TextC"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: * 撤回方法說明 : 遊戲內-社群-客服-APP權限說明 => "* 撤回方法說明 : 遊戲內-社群-客服-APP權限說明"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_Popup_TextD => "Permission_Popup_TextD"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: * 無同意權限內容也可以進行遊戲 => "* 無同意權限內容也可以進行遊戲"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_Popup_OK => "Permission_Popup_OK"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 確認 => "確認"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_Popup_GoConfig => "Permission_Popup_GoConfig"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval:  => ""
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_Popup_Exit => "Permission_Popup_Exit"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval:  => ""
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Viewbox_Web_On => "Intro_Popup_Viewbox_Web_On"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: Web => "Web"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Viewbox_Web_Off => "Intro_Popup_Viewbox_Web_Off"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: Web => "Web"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Viewbox_Movie_On => "Intro_Popup_Viewbox_Movie_On"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: Movie => "Movie"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Intro_Popup_Viewbox_Movie_Off => "Intro_Popup_Viewbox_Movie_Off"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: Movie => "Movie"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_WRITE_EXTERNAL_STORAGE_TITLE => "UPDATE_PERMISSION_WRITE_EXTERNAL_STORAGE_TITLE"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 儲存空間 => "儲存空間"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_WRITE_EXTERNAL_STORAGE_DESC => "UPDATE_PERMISSION_WRITE_EXTERNAL_STORAGE_DESC"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 為了儲存遊戲資源檔的權限 => "為了儲存遊戲資源檔的權限"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_READ_EXTERNAL_STORAGE_TITLE => "UPDATE_PERMISSION_READ_EXTERNAL_STORAGE_TITLE"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 儲存空間 => "儲存空間"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_READ_EXTERNAL_STORAGE_DESC => "UPDATE_PERMISSION_READ_EXTERNAL_STORAGE_DESC"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 為了儲存遊戲資源檔的權限 => "為了儲存遊戲資源檔的權限"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_RECORD_AUTIO_TITLE => "UPDATE_PERMISSION_RECORD_AUTIO_TITLE"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 麥克風 => "麥克風"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_RECORD_AUTIO_DESC => "UPDATE_PERMISSION_RECORD_AUTIO_DESC"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 為了語音聊天的權限 => "為了語音聊天的權限"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_CALLKIT_TITLE => "UPDATE_PERMISSION_CALLKIT_TITLE"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 電話 => "電話"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_CALLKIT_DESC => "UPDATE_PERMISSION_CALLKIT_DESC"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 為了語音聊天的權限 => "為了語音聊天的權限"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_MEDIACONTENT_TITLE => "UPDATE_PERMISSION_MEDIACONTENT_TITLE"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 圖片 => "圖片"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_PERMISSION_MEDIACONTENT_DESC => "UPDATE_PERMISSION_MEDIACONTENT_DESC"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 討論版上傳圖片的權限 => "討論版上傳圖片的權限"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetPermissionList
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetPermissionList(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: {"size":3,"permission0":"android.permission.WRITE_EXTERNAL_STORAGE","permission1":"android.permission.READ_EXTERNAL_STORAGE","permission2":"android.permission.RECORD_AUDIO"} => "{\"size\":3,\"permission0\":\"android.permission.WRITE_EXTERNAL_STORAGE\",\"permission1\":\"android.permission.READ_EXTERNAL_STORAGE\",\"permission2\":\"android.permission.RECORD_AUDIO\"}"
+*** exiting com.lineage.LinmPlatformSdk.GetPermissionList[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: Permission_List_Text => "Permission_List_Text"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval:  => ""
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_NECESSARY => "UPDATE_NECESSARY"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: [必須] => "[必須]"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_SELECT => "UPDATE_SELECT"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: [選擇] => "[選擇]"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.RequestPermission
+arg[0]: {"permission0":"android.permission.WRITE_EXTERNAL_STORAGE","permission1":"android.permission.READ_EXTERNAL_STORAGE","size":2} => "<instance: org.json.JSONObject>"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.RequestPermission(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: RequestPermission => "RequestPermission"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.RequestPermission(LinmPlatformSdk.java:188)
+	at com.lineage.LinmPlatformSdk.RequestPermission(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.RequestPermission[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.access$000
+arg[0]: checkRuntimePermissions : [android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE] => "checkRuntimePermissions : [android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE]"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$8.run(LinmPlatformSdk.java:217)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: checkRuntimePermissions : [android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE] => "checkRuntimePermissions : [android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE]"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.access$000(LinmPlatformSdk.java:36)
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$8.run(LinmPlatformSdk.java:217)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.access$000[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.access$000
+arg[0]: responsePermission : {"data":{"is_granted_all":true,"details":[{"permission":"android.permission.WRITE_EXTERNAL_STORAGE","is_granted":true,"is_checked_never_ask_again":false},{"permission":"android.permission.READ_EXTERNAL_STORAGE","is_granted":true,"is_checked_never_ask_again":false}]},"result":true} => "responsePermission : {\"data\":{\"is_granted_all\":true,\"details\":[{\"permission\":\"android.permission.WRITE_EXTERNAL_STORAGE\",\"is_granted\":true,\"is_checked_never_ask_again\":false},{\"permission\":\"android.permission.READ_EXTERNAL_STORAGE\",\"is_granted\":true,\"is_checked_never_ask_again\":false}]},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$8$1.onCompleted(LinmPlatformSdk.java:221)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.NcPlatformSdk.checkRuntimePermissions(NcPlatformSdk.java:447)
+	at com.ncsoft.android.mop.NcPlatformSdk.checkRuntimePermissions(NcPlatformSdk.java:406)
+	at com.lineage.LinmPlatformSdk$8.run(LinmPlatformSdk.java:218)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: responsePermission : {"data":{"is_granted_all":true,"details":[{"permission":"android.permission.WRITE_EXTERNAL_STORAGE","is_granted":true,"is_checked_never_ask_again":false},{"permission":"android.permission.READ_EXTERNAL_STORAGE","is_granted":true,"is_checked_never_ask_again":false}]},"result":true} => "responsePermission : {\"data\":{\"is_granted_all\":true,\"details\":[{\"permission\":\"android.permission.WRITE_EXTERNAL_STORAGE\",\"is_granted\":true,\"is_checked_never_ask_again\":false},{\"permission\":\"android.permission.READ_EXTERNAL_STORAGE\",\"is_granted\":true,\"is_checked_never_ask_again\":false}]},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.access$000(LinmPlatformSdk.java:36)
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$8$1.onCompleted(LinmPlatformSdk.java:221)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.NcPlatformSdk.checkRuntimePermissions(NcPlatformSdk.java:447)
+	at com.ncsoft.android.mop.NcPlatformSdk.checkRuntimePermissions(NcPlatformSdk.java:406)
+	at com.lineage.LinmPlatformSdk$8.run(LinmPlatformSdk.java:218)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.access$000[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.responsePermission
+arg[0]: true => true
+arg[1]: false => false
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.responsePermission(Native Method)
+	at com.lineage.LinmPlatformSdk$8$1.onCompleted(LinmPlatformSdk.java:223)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.NcPlatformSdk.checkRuntimePermissions(NcPlatformSdk.java:447)
+	at com.ncsoft.android.mop.NcPlatformSdk.checkRuntimePermissions(NcPlatformSdk.java:406)
+	at com.lineage.LinmPlatformSdk$8.run(LinmPlatformSdk.java:218)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.responsePermission[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.ConfigServerAppVersion
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.ConfigServerAppVersion(Native Method)
+	at com.lineage.NcConfigurationUtil.GetMainternanceInfo(NcConfigurationUtil.java:13)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:92)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 1.6.12 => "1.6.12"
+*** exiting com.lineage.LinmPlatformSdk.ConfigServerAppVersion[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_GATHERING_UPDATEINFO => "UPDATE_GATHERING_UPDATEINFO"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+[39;49;00m
+[30;01m
+retval: 讀取需更新的內容 => "讀取需更新的內容"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_CHECKING_VERSION => "UPDATE_CHECKING_VERSION"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+[39;49;00m
+[30;01m
+retval: 版本確認中 => "版本確認中"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_CHECKING_INFO => "UPDATE_CHECKING_INFO"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+[39;49;00m
+[30;01m
+retval: 資訊確認中 => "資訊確認中"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_DOWNLOADING_FILELIST => "UPDATE_DOWNLOADING_FILELIST"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+[39;49;00m
+[30;01m
+retval: 檔案清單讀取中 => "檔案清單讀取中"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_UPLOADING_FILE => "UPDATE_UPLOADING_FILE"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+[39;49;00m
+[30;01m
+retval: 檔案更新中 => "檔案更新中"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetLocalString
+arg[0]: UPDATE_FINISH => "UPDATE_FINISH"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetLocalString(Native Method)
+[39;49;00m
+[30;01m
+retval: 更新完畢 => "更新完畢"
+*** exiting com.lineage.LinmPlatformSdk.GetLocalString[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.IsSdkLogEnable
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.IsSdkLogEnable(Native Method)
+	at com.lineage.NcChannel$1.run(NcChannel.java:171)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: true => true
+*** exiting com.lineage.LinmPlatformSdk.IsSdkLogEnable[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.ConfigServerAppVersion
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.ConfigServerAppVersion(Native Method)
+	at com.lineage.NcConfigurationUtil.GetMainternanceInfo(NcConfigurationUtil.java:13)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 1.6.12 => "1.6.12"
+*** exiting com.lineage.LinmPlatformSdk.ConfigServerAppVersion[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.VerifySession
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.VerifySession(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: VerifySession => "VerifySession"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:86)
+	at com.lineage.LinmPlatformSdk.VerifySession(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.VerifySession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.access$000
+arg[0]: VerifySession : {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","user_name":"Guest","login_name":"ZMYP0VRZZ9Q9@plaync.com"},"result":true} => "VerifySession : {\"data\":{\"game_account_id\":\"862BA55B-263E-42EC-A1FC-A7E8C44812BD\",\"user_name\":\"Guest\",\"login_name\":\"ZMYP0VRZZ9Q9@plaync.com\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$2.onCompleted(LinmPlatformSdk.java:90)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$17.onResponse(AuthManager.java:936)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: VerifySession : {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","user_name":"Guest","login_name":"ZMYP0VRZZ9Q9@plaync.com"},"result":true} => "VerifySession : {\"data\":{\"game_account_id\":\"862BA55B-263E-42EC-A1FC-A7E8C44812BD\",\"user_name\":\"Guest\",\"login_name\":\"ZMYP0VRZZ9Q9@plaync.com\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.access$000(LinmPlatformSdk.java:36)
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$2.onCompleted(LinmPlatformSdk.java:90)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$17.onResponse(AuthManager.java:936)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.access$000[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.verifySessionCompleted
+arg[0]: {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","user_name":"Guest","login_name":"ZMYP0VRZZ9Q9@plaync.com"},"result":true} => "{\"data\":{\"game_account_id\":\"862BA55B-263E-42EC-A1FC-A7E8C44812BD\",\"user_name\":\"Guest\",\"login_name\":\"ZMYP0VRZZ9Q9@plaync.com\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.verifySessionCompleted(Native Method)
+	at com.lineage.LinmPlatformSdk$2.onCompleted(LinmPlatformSdk.java:91)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$17.onResponse(AuthManager.java:936)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.verifySessionCompleted[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.nativeGetServerAppId
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.nativeGetServerAppId(Native Method)
+	at com.lineage.SecondaryAuthUtil.StartSecondaryAuthAuthentication(SecondaryAuthUtil.java:29)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+*** exiting com.lineage.LinmPlatformSdk.nativeGetServerAppId[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.VerifySession
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.VerifySession(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: VerifySession => "VerifySession"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:86)
+	at com.lineage.LinmPlatformSdk.VerifySession(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.VerifySession[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.access$000
+arg[0]: VerifySession : {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","user_name":"Guest","login_name":"ZMYP0VRZZ9Q9@plaync.com"},"result":true} => "VerifySession : {\"data\":{\"game_account_id\":\"862BA55B-263E-42EC-A1FC-A7E8C44812BD\",\"user_name\":\"Guest\",\"login_name\":\"ZMYP0VRZZ9Q9@plaync.com\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$2.onCompleted(LinmPlatformSdk.java:90)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$17.onResponse(AuthManager.java:936)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: VerifySession : {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","user_name":"Guest","login_name":"ZMYP0VRZZ9Q9@plaync.com"},"result":true} => "VerifySession : {\"data\":{\"game_account_id\":\"862BA55B-263E-42EC-A1FC-A7E8C44812BD\",\"user_name\":\"Guest\",\"login_name\":\"ZMYP0VRZZ9Q9@plaync.com\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.access$000(LinmPlatformSdk.java:36)
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$2.onCompleted(LinmPlatformSdk.java:90)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$17.onResponse(AuthManager.java:936)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.access$000[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.verifySessionCompleted
+arg[0]: {"data":{"game_account_id":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","user_name":"Guest","login_name":"ZMYP0VRZZ9Q9@plaync.com"},"result":true} => "{\"data\":{\"game_account_id\":\"862BA55B-263E-42EC-A1FC-A7E8C44812BD\",\"user_name\":\"Guest\",\"login_name\":\"ZMYP0VRZZ9Q9@plaync.com\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.verifySessionCompleted(Native Method)
+	at com.lineage.LinmPlatformSdk$2.onCompleted(LinmPlatformSdk.java:91)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$17.onResponse(AuthManager.java:936)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.verifySessionCompleted[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetAuthnToken
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: GetAuthnToken => "GetAuthnToken"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:122)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.nativeGetServerAppId
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.nativeGetServerAppId(Native Method)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+	at com.lineage.LinmPlatformSdk.GetAuthnToken(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: F7E8E286-73F4-42A5-AEA1-2E8B472499EA => "F7E8E286-73F4-42A5-AEA1-2E8B472499EA"
+*** exiting com.lineage.LinmPlatformSdk.nativeGetServerAppId[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.GetAuthnToken[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.access$000
+arg[0]: GetAuthnToken : {"data":{"authn_token":"NzU3NkNCODgtM0Q0Ny00MEE4LTg4OEUtMjdDMjZFNjI1RTcxOjUxQTFFQzEwLTNCQkQtNEJGQi05MkMwLTdFRjY2QTk2RDM0RAA="},"result":true} => "GetAuthnToken : {\"data\":{\"authn_token\":\"NzU3NkNCODgtM0Q0Ny00MEE4LTg4OEUtMjdDMjZFNjI1RTcxOjUxQTFFQzEwLTNCQkQtNEJGQi05MkMwLTdFRjY2QTk2RDM0RAA=\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$5.onCompleted(LinmPlatformSdk.java:126)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$19.onResponse(AuthManager.java:1071)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.PrintInfoLog
+arg[0]: GetAuthnToken : {"data":{"authn_token":"NzU3NkNCODgtM0Q0Ny00MEE4LTg4OEUtMjdDMjZFNjI1RTcxOjUxQTFFQzEwLTNCQkQtNEJGQi05MkMwLTdFRjY2QTk2RDM0RAA="},"result":true} => "GetAuthnToken : {\"data\":{\"authn_token\":\"NzU3NkNCODgtM0Q0Ny00MEE4LTg4OEUtMjdDMjZFNjI1RTcxOjUxQTFFQzEwLTNCQkQtNEJGQi05MkMwLTdFRjY2QTk2RDM0RAA=\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.PrintInfoLog(Native Method)
+	at com.lineage.LinmPlatformSdk.access$000(LinmPlatformSdk.java:36)
+	at com.lineage.LinmPlatformSdk.access$000(Native Method)
+	at com.lineage.LinmPlatformSdk$5.onCompleted(LinmPlatformSdk.java:126)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$19.onResponse(AuthManager.java:1071)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.PrintInfoLog[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.access$000[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[30;01mundefined[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.getAuthnTokenCompleted
+arg[0]: {"data":{"authn_token":"NzU3NkNCODgtM0Q0Ny00MEE4LTg4OEUtMjdDMjZFNjI1RTcxOjUxQTFFQzEwLTNCQkQtNEJGQi05MkMwLTdFRjY2QTk2RDM0RAA="},"result":true} => "{\"data\":{\"authn_token\":\"NzU3NkNCODgtM0Q0Ny00MEE4LTg4OEUtMjdDMjZFNjI1RTcxOjUxQTFFQzEwLTNCQkQtNEJGQi05MkMwLTdFRjY2QTk2RDM0RAA=\"},\"result\":true}"
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.getAuthnTokenCompleted(Native Method)
+	at com.lineage.LinmPlatformSdk$5.onCompleted(LinmPlatformSdk.java:127)
+	at com.ncsoft.android.mop.ApiLogHelper$1.onCompleted(ApiLogHelper.java:16)
+	at com.ncsoft.android.mop.AuthManager$19.onResponse(AuthManager.java:1071)
+	at com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+	at com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+	at com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+	at com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+[39;49;00m
+[30;01m
+retval: undefined => undefined
+*** exiting com.lineage.LinmPlatformSdk.getAuthnTokenCompleted[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetGameAccountID
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetGameAccountID(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 862BA55B-263E-42EC-A1FC-A7E8C44812BD => "862BA55B-263E-42EC-A1FC-A7E8C44812BD"
+*** exiting com.lineage.LinmPlatformSdk.GetGameAccountID[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetGameAccountID
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetGameAccountID(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 862BA55B-263E-42EC-A1FC-A7E8C44812BD => "862BA55B-263E-42EC-A1FC-A7E8C44812BD"
+*** exiting com.lineage.LinmPlatformSdk.GetGameAccountID[39;49;00m
+[37;11m========================================================================================================================================================================================================[39;49;00m
+[34;01mInspecting Fields: => false => class com.lineage.LinmPlatformSdk
+java.lang.String 	CONFIG_FABRIC_KEY => fabric_key => "fabric_key"
+java.lang.String 	CONFIG_NCCR_KEY => nccr_key => "nccr_key"
+java.lang.String 	CONFIG_NCCR_URL => nccr_url => "nccr_url"
+java.lang.String 	CONFIG_NC_CONSOLE_API_KEY => nc_console_api_key => "nc_console_api_key"
+java.lang.String 	CONFIG_NC_CONSOLE_SERVER_HOST => nc_console_server_host => "nc_console_server_host"
+java.lang.String[] 	permissions => android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.RECORD_AUDIO => ["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"]
+[39;49;00m
+[32;01m
+*** entered com.lineage.LinmPlatformSdk.GetGameAccountID
+java.lang.Throwable
+	at com.lineage.LinmPlatformSdk.GetGameAccountID(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+	at org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+[39;49;00m
+[30;01m
+retval: 862BA55B-263E-42EC-A1FC-A7E8C44812BD => "862BA55B-263E-42EC-A1FC-A7E8C44812BD"
+*** exiting com.lineage.LinmPlatformSdk.GetGameAccountID[39;49;00m

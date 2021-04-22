@@ -1,3 +1,4 @@
+
 (function(){
     let Color = {RESET: "\x1b[39;49;00m", Black: "0;01", Blue: "4;01", Cyan: "6;01", Gray: "7;11", "Green": "2;01", Purple: "5;01", Red: "1;01", Yellow: "3;01"};
     let LightColor = {RESET: "\x1b[39;49;00m", Black: "0;11", Blue: "4;11", Cyan: "6;11", Gray: "7;01", "Green": "2;11", Purple: "5;11", Red: "1;11", Yellow: "3;11"};    
@@ -299,17 +300,6 @@ function hook_libc() {
     var fwrite = new NativeFunction(fwrite_addr, "int", ["pointer", "int", "int", "pointer"])
     var fclose = new NativeFunction(fclose_addr, "int", ["pointer"])
 
-    var fork_addr = Module.findExportByName(null, 'fork')
-    console.log("fork addr:", JSON.stringify(fork_addr))
-    Interceptor.attach(fork_addr, {
-        onEnter: function(args) {
-            console.log("++++++++++++++fork called")
-        }, onLeave: function(retval) {
-        }
-    })
-
-
-
     // Interceptor.replace(unlink_addr, 
     //     new NativeCallback(function (arg0) {
     //     // if (arg0.readCString().indexOf("liblineage_sharedcpp.so")) {
@@ -574,7 +564,7 @@ function hook_doApiRequest() {
                 var headerValue = this.doApiRequest(arg0, arg1, arg2, arg3, arg4)
                 console.log("[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]")
                 console.log("arg1:", parseInt(arg1))
-                console.log("arg2:", arg2.toString())
+                console.log("interface:", arg2.toString())
                 if (arg3 != null) {
                     console.log("arg3:", arg3.toString())
                 }
@@ -625,7 +615,7 @@ function Java_LoadS() {
             var NCGPApplication = Java.use('com.ncsoft.ncgp.NCGPApplication')
             NCGPApplication.LoadS.implementation = function(arg0) {
                 var retVal = this.LoadS(arg0)
-                console.log("LoadS:"+arg0.toString() +" key:"+retVal.toString())
+                // console.log("LoadS:"+arg0.toString() +" key:"+retVal.toString())
                 return retVal
             }
 
@@ -646,7 +636,7 @@ function Java_LoadS() {
             //     var key = NCGPApplication.LoadS(hashKey)
             //     console.log(hashKey+": "+key+";")
             // }
-            var hashKey = 'b93eff878e884f08835c370c78b5a8d2'
+            var hashKey = '0797cb84eb014876b9e0521b67c8b08e'
             var key = NCGPApplication.LoadS(hashKey)
             console.log(hashKey+": "+key+";")
         })
@@ -741,15 +731,23 @@ function hook_strstr() {
             // org.cocos2dx.lib.Cocos2dxRenderer.nativeRender
             // eglSwapBuffers
             // nanoTime
-            if (this.info.indexOf('ncsoft') == -1) {
-                return
-            }
-            if (this.info.indexOf('nativeReadString') != -1 ||
-            this.info.indexOf('Cocos2dxRenderer.nativeRender') != -1 ||
-            this.info.indexOf('eglSwapBuffers') != -1 ||
-            this.info.indexOf('nanoTime') != -1 || 
-            this.info.indexOf('com.android.org.conscrypt.NativeCrypto') != -1 ||
-            this.info.indexOf('LoadS') != -1) {
+
+
+            // if (this.info.indexOf('ncsoft') == -1 &&
+            // this.info.indexOf('lineage') == -1 &&
+            // this.info.indexOf('gamania') == -1) {
+            //     return
+            // }
+            // if (this.info.indexOf('nativeReadString') != -1 ||
+            // this.info.indexOf('Cocos2dxRenderer.nativeRender') != -1 ||
+            // this.info.indexOf('eglSwapBuffers') != -1 ||
+            // this.info.indexOf('nanoTime') != -1 || 
+            // this.info.indexOf('com.android.org.conscrypt.NativeCrypto') != -1 ||
+            // this.info.indexOf('LoadS') != -1) {
+            //     return
+            // }
+
+            if (this.info.indexOf('login') == -1) {
                 return
             }
             console.log("JnimethodStart:", this.info)
@@ -766,27 +764,63 @@ function hook_login() {
             Java.enumerateClassLoaders({
                 onMatch:function(loader){
                     try {
-                        if(loader.findClass("com.ncsoft.android.mop.AuthManager")){
-                            var AuthManager = Java.use('com.ncsoft.android.mop.AuthManager')
-                            AuthManager.loginViaPlaync.implementation = function(arg0, arg1, arg2, arg3, arg4) {
-                                console.log("loginViaPlaync")
-                                return this.loginViaPlaync(arg0, arg1, arg2, arg3, arg4)
+                        if(loader.findClass("com.ncsoft.android.mop.BaseManager")){
+                            Java.classFactory.loader = loader
+
+                            var BaseManager = Java.use('com.ncsoft.android.mop.BaseManager')
+                            BaseManager.refreshSession.overload('com.ncsoft.android.mop.NcHttpRequest', 'com.ncsoft.android.mop.BaseManager$CheckSessionCallback', 'com.ncsoft.android.mop.MetaData').implementation = function(arg0,arg1,arg2) {
+                                console.log('BaseManager.refershSession!!!')
+                                return this.refreshSession(arg0,arg1,arg2)
                             }
-                            AuthManager.loginViaGuest.implementation = function(arg0, arg1, arg2) {
-                                console.log("loginViaGuest")
-                                return this.loginViaGuest(arg0, arg1, arg2)
+                
+                            BaseManager.loginInternal.implementation = function(arg0) {
+                                console.log("BaseManager.loginInternal!!!")
+                                return this.loginInternal(arg0)
+                            }
+                
+                            var NcPreference = Java.use('com.ncsoft.android.mop.NcPreference')
+                            NcPreference.putSession.implementation = function(str) {
+                                console.log("putSession: ", str)
+                                return this.putSession(str)
+                            }
+                
+                            NcPreference.getSession.implementation = function() {
+                                var session = this.getSession()
+                                console.log("getSession: ", session)
+                                return session
+                            }
+                
+                            var AuthManager = Java.use('com.ncsoft.android.mop.AuthManager')
+                            var AuthRequest = Java.use('com.ncsoft.android.mop.apigate.requests.AuthRequest')
+                            var LinmPlatformSdk = Java.use('com.lineage.LinmPlatformSdk')
+                            LinmPlatformSdk.loginByProviderCompleted.implementation = function(str) {
+                                console.log('loginByProviderCompleted:', str)
+                                return this.loginByProviderCompleted(str)
+                            }
+                            AuthManager.login.overload('android.app.Activity', 'java.lang.String', 'com.ncsoft.android.mop.NcAuthProvider', 'com.ncsoft.android.mop.AuthManager$LoginSessionListener', 'com.ncsoft.android.mop.AuthManager$PolicyOpenListener').implementation = function(arg0,arg1,arg2,arg3,arg4) {
+                                printJavaStackTrace("login")
+                                console.log('sssssssssssssssss')
+                                return this.login(arg0,arg1,arg2,arg3,arg4)
                             }
                             AuthManager.verifySession.implementation = function(arg0, arg1) {
                                 console.log('verifySession called')
                                 printJavaStackTrace('verifySession')
                                 return this.verifySession(arg0, arg1)
                             }
+                
+                            AuthRequest.loginSessionToken.implementation = function(arg0, arg1,arg2,arg3) {
+                                printJavaStackTrace('loginSessionToken')
+                                return this.loginSessionToken(arg0,arg1,arg2,arg3)
+                            }
+
                         }
                     } catch (error) {
 
                     }
                 }, onComplete: function() {}
             })
+
+
 
         })
     }
@@ -835,23 +869,48 @@ function hook_bypassAntiDebug() {
     },"long", ["int", "int", "pointer", "pointer"]))
 }
 
+function hook_apiURL() {
+    if (Java.available) {
+        Java.perform(function() {
+            Java.enumerateClassLoaders({
+                onMatch:function(loader) {
+                    if (loader.findClass('com.ncsoft.android.mop.NcEnvironment')) {
+                        Java.classFactory.loader = loader
+                    }
+                }, onComplete:function() {}
+            })
+        })
+
+        var NcEnvironment = Java.use('com.ncsoft.android.mop.NcEnvironment')
+        NcEnvironment.getApiUrl.implementation = function() {
+            var url = this.getApiUrl()
+            console.log("find api: ", url)
+            return url
+        }
+    }
+}
+
 function main() {
-    hook_bypassAntiDebug()
+    // hook_bypassAntiDebug()
     // hook_doApiRequest()
     // hook_ncgp()
     // hook_strstr()
-    Java_LoadS()
+    // Java_LoadS()
     // decodeJwtHeader()
+    // hook_libc()
 
-    // hook_login()
+    hook_login()
     // Java.perform(function() {
     //     // traceClass("com.ncsoft.android.mop.AuthManager")
     //     // traceClass('com.ncsoft.android.mop.apigate.requests.AuthRequest')
-    //     traceClass('com.ncsoft.android.mop.NcHttpRequest')
+    //     // traceClass('com.ncsoft.android.mop.NcHttpRequest')
+    //     // traceClass('com.lineage.LinmPlatformSdk')
+    //     // traceClass('com.ncsoft.android.mop.apigate.BaseHttpRequest')
+    //     traceClass('com.ncsoft.android.mop.NcEnvironment')
     // })
 
     // hook_nativeSSL()
-
+    // hook_apiURL()
 }
 
 setImmediate(main)

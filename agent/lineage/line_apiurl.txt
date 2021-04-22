@@ -1,0 +1,77 @@
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.NcEnvironment" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib64, /vendor/lib64, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:115)
+    at apply (native)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:97)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:429)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at hook_apiURL (/lineagemhook.js:858)
+    at main (/lineagemhook.js:885)
+    at apply (native)
+    at <anonymous> (frida/runtime/core.js:45)
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.NcEnvironment" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib64, /vendor/lib64, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1058)
+    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:580)
+    at apply (native)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:963)
+    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:547)
+    at onMatch (/lineagemhook.js:851)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:135)
+    at forEach (native)
+    at _enumerateClassLoadersArt (frida/node_modules/frida-java-bridge/index.js:136)
+    at enumerateClassLoaders (frida/node_modules/frida-java-bridge/index.js:71)
+    at <anonymous> (/lineagemhook.js:855)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 1
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.NcEnvironment" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib64, /vendor/lib64, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1058)
+    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:580)
+    at apply (native)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:963)
+    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:547)
+    at onMatch (/lineagemhook.js:851)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:135)
+    at forEach (native)
+    at _enumerateClassLoadersArt (frida/node_modules/frida-java-bridge/index.js:136)
+    at enumerateClassLoaders (frida/node_modules/frida-java-bridge/index.js:71)
+    at <anonymous> (/lineagemhook.js:855)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:11)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:213)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:11)
+    at _performPendingVmOpsWhenReady (frida/node_modules/frida-java-bridge/index.js:232)
+    at perform (frida/node_modules/frida-java-bridge/index.js:192)
+    at hook_apiURL (/lineagemhook.js:856)
+    at main (/lineagemhook.js:885)
+    at apply (native)
+    at <anonymous> (frida/runtime/core.js:45)
+replaced fork func count: 2
+find api:  null
+replaced fork func count: 3
+find api:  null
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+find api:  https://api-lm.beanfun.com
+ReferenceError: 'require' is not defined
+    at <eval> (/lineagemhook.js:1)

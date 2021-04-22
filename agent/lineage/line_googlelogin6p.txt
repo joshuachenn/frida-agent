@@ -1,0 +1,157 @@
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  C08B3FE1-0065-4AD1-AB7A-5F75A15FA64F
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+getSession:  null
+===============login stack start =============
+com.ncsoft.android.mop.AuthManager.login(Native Method)
+com.ncsoft.android.mop.GoogleAuthManager$3.perform(GoogleAuthManager.java:195)
+com.ncsoft.android.mop.GoogleAuthManager$1$1.callback(GoogleAuthManager.java:91)
+com.ncsoft.android.mop.internal.InternalCallbackHelper.executeCallback(InternalCallbackHelper.java:120)
+com.ncsoft.android.mop.external.GoogleSignInFragment.response(GoogleSignInFragment.java:214)
+com.ncsoft.android.mop.external.GoogleSignInFragment.handleSignInResult(GoogleSignInFragment.java:161)
+com.ncsoft.android.mop.external.GoogleSignInFragment.onActivityResult(GoogleSignInFragment.java:223)
+android.support.v4.app.g.onActivityResult(FragmentActivity.java:156)
+com.ncsoft.android.mop.NcActivity.onActivityResult(NcActivity.java:108)
+android.app.Activity.dispatchActivityResult(Activity.java:7276)
+android.app.ActivityThread.deliverResults(ActivityThread.java:4264)
+android.app.ActivityThread.handleSendResult(ActivityThread.java:4312)
+android.app.ActivityThread.-wrap19(Unknown Source:0)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:1644)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loop(Looper.java:164)
+android.app.ActivityThread.main(ActivityThread.java:6494)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+de.robv.android.xposed.XposedBridge.main(XposedBridge.java:108)
+===============login stack end ==============
+sssssssssssssssss
+===============loginSessionToken stack start =============
+com.ncsoft.android.mop.apigate.requests.AuthRequest.loginSessionToken(Native Method)
+com.ncsoft.android.mop.AuthManager.login(AuthManager.java:608)
+com.ncsoft.android.mop.AuthManager.login(Native Method)
+com.ncsoft.android.mop.GoogleAuthManager$3.perform(GoogleAuthManager.java:195)
+com.ncsoft.android.mop.GoogleAuthManager$1$1.callback(GoogleAuthManager.java:91)
+com.ncsoft.android.mop.internal.InternalCallbackHelper.executeCallback(InternalCallbackHelper.java:120)
+com.ncsoft.android.mop.external.GoogleSignInFragment.response(GoogleSignInFragment.java:214)
+com.ncsoft.android.mop.external.GoogleSignInFragment.handleSignInResult(GoogleSignInFragment.java:161)
+com.ncsoft.android.mop.external.GoogleSignInFragment.onActivityResult(GoogleSignInFragment.java:223)
+android.support.v4.app.g.onActivityResult(FragmentActivity.java:156)
+com.ncsoft.android.mop.NcActivity.onActivityResult(NcActivity.java:108)
+android.app.Activity.dispatchActivityResult(Activity.java:7276)
+android.app.ActivityThread.deliverResults(ActivityThread.java:4264)
+android.app.ActivityThread.handleSendResult(ActivityThread.java:4312)
+android.app.ActivityThread.-wrap19(Unknown Source:0)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:1644)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loop(Looper.java:164)
+android.app.ActivityThread.main(ActivityThread.java:6494)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+de.robv.android.xposed.XposedBridge.main(XposedBridge.java:108)
+===============loginSessionToken stack end ==============
+getSession:  null
+getSession:  null
+BaseManager.loginInternal!!!
+putSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+loginByProviderCompleted: {"data":{"game_account_id":"D3E096D4-FD65-430D-B4A0-6BC472446B9C","login_name":"boringdogy@gmail.com","user_name":"Dog Boring"},"result":true}
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+verifySession called
+===============verifySession stack start =============
+com.ncsoft.android.mop.AuthManager.verifySession(Native Method)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============verifySession stack end ==============
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42
+getSession:  33CDC86F-7C48-42D0-BD96-D31C79457D42

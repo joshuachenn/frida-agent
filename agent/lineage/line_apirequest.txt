@@ -1,0 +1,276 @@
+Error: java.lang.ClassNotFoundException: Didn't find class "com.ncsoft.android.mop.apigate.BaseHttpRequest" on path: DexPathList[[zip file "/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk"],nativeLibraryDirectories=[/data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/lib/arm64, /data/app/com.gamania.lineagem-h55jKQRjm423Bh5f3Ysmzw==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:246)
+    at <anonymous> (/lineagemhook.js:551)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+replaced fork func count: 1
+replaced ptrace func count: 2
+replaced fork func count: 3
+replaced ptrace func count: 4
+replaced fork func count: 1
+replaced fork func count: 2
+BaseHttpRequest: "<class: com.ncsoft.android.mop.apigate.BaseHttpRequest>"
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDI5OTkyIiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.u4nQ_g6hyAakiGdd2hbk-HgDiseEo8MVv79ZhDXpWNBEYA8JrR_9um8wlMLqj-v5-Oif_5Z4fbl1iZvoIzReDs28ApaZAQOJQPZUoKRxQ3mwoLuKlbPAn5hxYmwYNEeX4vStd_wt7C7zM6Fa4axmA2BIyzzcoP38VAfqTfZiM4KHkB-kCnXuBnH7q-TAuAxoM5QaTcc8I9Kmxa1hpl46FOy1ZspF0eTPn4KPTp_P0ITvxAhF34PNQO1bRpQuPExViQKPLMr6Ci6VZ5rMzvVPi6pNYK-oL_lY8QNuySpO7GwnhDdeNKJ-7xRF9iDLi0XCYGX_HkNy8QSxxR76B_sQgg
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 0
+interface: /MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDI5OTkyIiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.u4nQ_g6hyAakiGdd2hbk-HgDiseEo8MVv79ZhDXpWNBEYA8JrR_9um8wlMLqj-v5-Oif_5Z4fbl1iZvoIzReDs28ApaZAQOJQPZUoKRxQ3mwoLuKlbPAn5hxYmwYNEeX4vStd_wt7C7zM6Fa4axmA2BIyzzcoP38VAfqTfZiM4KHkB-kCnXuBnH7q-TAuAxoM5QaTcc8I9Kmxa1hpl46FOy1ZspF0eTPn4KPTp_P0ITvxAhF34PNQO1bRpQuPExViQKPLMr6Ci6VZ5rMzvVPi6pNYK-oL_lY8QNuySpO7GwnhDdeNKJ-7xRF9iDLi0XCYGX_HkNy8QSxxR76B_sQgg
+===============/MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.ConfigManager.getPolicyKey(ConfigManager.java:139)
+com.ncsoft.android.mop.ConfigManager.getConfiguration(ConfigManager.java:148)
+com.ncsoft.android.mop.NcConfiguration.getConfiguration(NcConfiguration.java:69)
+com.ncsoft.android.mop.NcConfiguration.getConfiguration(NcConfiguration.java:56)
+com.lineage.LinmPlatformSdk.Initialize(LinmPlatformSdk.java:62)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeInit(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onSurfaceCreated(Cocos2dxRenderer.java:74)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1539)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/MobileAppConfigSdk/app/key?app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+replaced fork func count: 3
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDI5OTkzIiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.CayLk3c0P_95QwgMTPNUeGMUSIaPyO7Md09qSbkiF_0M7YbD6z-u700jR9xGpqFKw_i4H9zf_mDYrCWrLxAGGprA-m_w2DEcEtXpQlXWLT9UngMM5iz5rxrpHG7onGpYvc8AQONMY05_CC2nI22u3BtuqwlDZcoWuezxFzCHs0kZfrXqGFz-yfD3Ns5HWOKBhQYzrDZAnXJVjWl4PfqwZ9bSAHteibXp9D3g7xo09JsYdVLlsGaQQcknyxDjMKj1HJR-Od9O6wiDQFR1F22F9VFLXFhhxO6vY-2ojkYKOnr66DIOSnx3ioyJsTMu64jFG6FU4WyiCH5wrCDdUmFacQ
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 0
+interface: /MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2
+===============/MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.ConfigManager$2.onCompleted(ConfigManager.java:189)
+com.ncsoft.android.mop.ConfigManager$1.onResponse(ConfigManager.java:114)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.onResponse(BaseHttpRequest.java:394)
+com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:46)
+com.ncsoft.android.mop.apigate.HttpResponseHandler.onResponse(HttpResponseHandler.java:21)
+com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:82)
+com.ncsoft.android.volley.toolbox.StringRequest.deliverResponse(StringRequest.java:29)
+com.ncsoft.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(ExecutorDelivery.java:102)
+android.os.Handler.handleCallback(Handler.java:790)
+android.os.Handler.dispatchMessage(Handler.java:99)
+android.os.Looper.loop(Looper.java:164)
+android.app.ActivityThread.main(ActivityThread.java:6494)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+===============/MobileAppConfigSdk/app/policy?app_version=1.6.12&app_id=6C09ADAC-1121-4527-ABC0-31707DBDF0B3&app_config_type=2 stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDI5OTkzIiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.CayLk3c0P_95QwgMTPNUeGMUSIaPyO7Md09qSbkiF_0M7YbD6z-u700jR9xGpqFKw_i4H9zf_mDYrCWrLxAGGprA-m_w2DEcEtXpQlXWLT9UngMM5iz5rxrpHG7onGpYvc8AQONMY05_CC2nI22u3BtuqwlDZcoWuezxFzCHs0kZfrXqGFz-yfD3Ns5HWOKBhQYzrDZAnXJVjWl4PfqwZ9bSAHteibXp9D3g7xo09JsYdVLlsGaQQcknyxDjMKj1HJR-Od9O6wiDQFR1F22F9VFLXFhhxO6vY-2ojkYKOnr66DIOSnx3ioyJsTMu64jFG6FU4WyiCH5wrCDdUmFacQ
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDA0IiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.OdcQBjNkND1MOmDPqWCZXMER9b2W5RAFNRDX72ArFQ9CvOazJGGUiULZ_ke7CrjZy_SwHv7yyE0kZh9Hl8NU441WTN0B5BfiMWZcQxiOdXa2EdHrZFG8XMC_j0Marh_AB_vilGF3JK4tokfoD5ExBlIdKrunQcDjf0FMe8driTZhNTCOJ-o5evwGR0-sBeV6p_dVoEtYf7G52YnGrGtnKILIRrfzzkv1moOAmHbfTWXpXeI-NqqNJsSDyE3LWIi22c-lhBAsKEPrPDtvFDI-6myahX5N_GNWVxMhqGRVaYrFcF8ujzvLo14Ycf76b27WnB7MwCP20cJOOS22HgKocg
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 1
+interface: /MobileAppConfigSdk/app/policy/maintenance
+arg3: {"app_id":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","app_version":"1.6.12","app_config_type":2,"platform_type":1,"language_code":"zh_TW","check_value":"|40:4e:36:25:b6:d2","time_zone":"+08:00","is_maintenance_time_required":"1"}
+===============/MobileAppConfigSdk/app/policy/maintenance stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.ConfigManager$4$1.onCompleted(ConfigManager.java:627)
+com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:131)
+com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:102)
+android.os.AsyncTask.finish(AsyncTask.java:695)
+android.os.AsyncTask.-wrap1(Unknown Source:0)
+android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:712)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loop(Looper.java:164)
+android.app.ActivityThread.main(ActivityThread.java:6494)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+===============/MobileAppConfigSdk/app/policy/maintenance stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDA0IiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.OdcQBjNkND1MOmDPqWCZXMER9b2W5RAFNRDX72ArFQ9CvOazJGGUiULZ_ke7CrjZy_SwHv7yyE0kZh9Hl8NU441WTN0B5BfiMWZcQxiOdXa2EdHrZFG8XMC_j0Marh_AB_vilGF3JK4tokfoD5ExBlIdKrunQcDjf0FMe8driTZhNTCOJ-o5evwGR0-sBeV6p_dVoEtYf7G52YnGrGtnKILIRrfzzkv1moOAmHbfTWXpXeI-NqqNJsSDyE3LWIi22c-lhBAsKEPrPDtvFDI-6myahX5N_GNWVxMhqGRVaYrFcF8ujzvLo14Ycf76b27WnB7MwCP20cJOOS22HgKocg
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDE1IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.Rtnn7Acjh0CoTdLd5HncHjzpDbEgD8ZLWrp246sqvXKPsaEybB2fLVHg2NmCTw1CLrrF7pOOmnsb2cyCw8E120j3bDrp-Ngfb2Hxp8NEogeEyyTHGdN8xXMjDaDmhXWX4VUUCcC3yi4s05cbqKD-GtqGaA9F8MfSt5-UL1vYheuvrY5eRHIgX8TJV21YR_ivfYrwlbWMiu2T_EHqIHXWxw5AxXXibeES282c4UOZVtC9jtwapVQX3fgXIbGErBR3GtokSzsXjxE1EKJq9Y9deolUMNcNw___7cH5n3VwMa1aJ9xVEAmVVhOGD92eZJkA9o1B905JXQKoArtYx9Accw
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 0
+interface: /campaigns/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/placements?platform=android&did=32cf43d6-9b3f-44f3-be95-7022e855d2d8&except=clm210420_00004,clm210420_00002,clm210420_00003
+===============/campaigns/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/placements?platform=android&did=32cf43d6-9b3f-44f3-be95-7022e855d2d8&except=clm210420_00004,clm210420_00002,clm210420_00003 stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.CampaignManager.prefetchCampaignsInternal(CampaignManager.java:261)
+com.ncsoft.android.mop.CampaignManager.prefetchCampaigns(CampaignManager.java:172)
+com.ncsoft.android.mop.NcCampaign.prefetchCampaigns(NcCampaign.java:90)
+com.ncsoft.android.mop.NcCampaign.prefetchCampaigns(NcCampaign.java:77)
+com.lineage.CampaignUtil$2.run(CampaignUtil.java:32)
+android.os.Handler.handleCallback(Handler.java:790)
+android.os.Handler.dispatchMessage(Handler.java:99)
+android.os.Looper.loop(Looper.java:164)
+android.app.ActivityThread.main(ActivityThread.java:6494)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+===============/campaigns/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/placements?platform=android&did=32cf43d6-9b3f-44f3-be95-7022e855d2d8&except=clm210420_00004,clm210420_00002,clm210420_00003 stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDE1IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.Rtnn7Acjh0CoTdLd5HncHjzpDbEgD8ZLWrp246sqvXKPsaEybB2fLVHg2NmCTw1CLrrF7pOOmnsb2cyCw8E120j3bDrp-Ngfb2Hxp8NEogeEyyTHGdN8xXMjDaDmhXWX4VUUCcC3yi4s05cbqKD-GtqGaA9F8MfSt5-UL1vYheuvrY5eRHIgX8TJV21YR_ivfYrwlbWMiu2T_EHqIHXWxw5AxXXibeES282c4UOZVtC9jtwapVQX3fgXIbGErBR3GtokSzsXjxE1EKJq9Y9deolUMNcNw___7cH5n3VwMa1aJ9xVEAmVVhOGD92eZJkA9o1B905JXQKoArtYx9Accw
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI1IiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.vOT5sL76iXA1JtMAcsQkH2gGfXAy456TCmt9K8Q19AFTb-AXnzHykOQ8B77x7uVEzrWfEa6UDQ5ZKtfwN5707G4pRJWamWYSeKkPEEh0jYzNGGcGhmLERNrYktwR-0vDEcc-HYRNYU0bvZN3tfgug6VkidgDmaNqf0LKWbt1Bs8xgGUXPbrfv6pkc9f-JkKbvixXrztzLNzH_D1iWqCBekypBQmv0i4ewmbR3rUU0J978J6I2WD-pzTYJ-3x9sw1xpuhbi-lRWZOBRE5JDWu4z83lOf6dRwOer8WC81Wd9jYGUJCU3cmwnwGIZOd291GvuxFxMXGjTVAvOHeJb9Hpg
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 1
+interface: /MobileAppConfigSdk/app/policy/maintenance
+arg3: {"app_id":"6C09ADAC-1121-4527-ABC0-31707DBDF0B3","app_version":"1.6.12","app_config_type":2,"platform_type":1,"language_code":"zh_TW","check_value":"|40:4e:36:25:b6:d2","time_zone":"+08:00","is_maintenance_time_required":"1"}
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI1IiwidHlwIjoiYXBwIiwicmVxdWVzdCI6e319.vOT5sL76iXA1JtMAcsQkH2gGfXAy456TCmt9K8Q19AFTb-AXnzHykOQ8B77x7uVEzrWfEa6UDQ5ZKtfwN5707G4pRJWamWYSeKkPEEh0jYzNGGcGhmLERNrYktwR-0vDEcc-HYRNYU0bvZN3tfgug6VkidgDmaNqf0LKWbt1Bs8xgGUXPbrfv6pkc9f-JkKbvixXrztzLNzH_D1iWqCBekypBQmv0i4ewmbR3rUU0J978J6I2WD-pzTYJ-3x9sw1xpuhbi-lRWZOBRE5JDWu4z83lOf6dRwOer8WC81Wd9jYGUJCU3cmwnwGIZOd291GvuxFxMXGjTVAvOHeJb9Hpg
+===============/MobileAppConfigSdk/app/policy/maintenance stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.ConfigManager$4$1.onCompleted(ConfigManager.java:627)
+com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:131)
+com.ncsoft.android.mop.NcUtil$1.onPostExecute(NcUtil.java:102)
+android.os.AsyncTask.finish(AsyncTask.java:695)
+android.os.AsyncTask.-wrap1(Unknown Source:0)
+android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:712)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loop(Looper.java:164)
+android.app.ActivityThread.main(ActivityThread.java:6494)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+===============/MobileAppConfigSdk/app/policy/maintenance stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI2IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.Q0zigDpT5w7d-_I85bfxcazpyNEFenY9QzmjnDIwGYNKEhTniGr9f8LEQNy4Umo5KtY3VO1FH_DSBIm2BSRFjA6xqDqXrqTobs6WYQvZXd_8GfEce8Axyc1zhmCE7pUd8LfJHEJ_3U5fd88dL8wdOgRE0oXkc-_au6ZSj2qtCR77APkhOJQbF0yMJ9q5JIQBzcRsZIYhbuMMYBqhr8IOIa7eKMfRso4Otudqx-025sBCKv5x5MTlcD6zVWwY5jHDW52YRkib1G-Cs_y6BgugD5Mfm6d11vSLvxPkNWt8L8sz0vFe0szLp5tNcrvl3ImZTxxWybVHmLn40mvJtiq-gw
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 0
+interface: /sessions/v1.0/F96E564C-1BC8-41BE-B4A6-066D102BD924
+===============/sessions/v1.0/F96E564C-1BC8-41BE-B4A6-066D102BD924 stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.AuthManager.verifySession(AuthManager.java:952)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/sessions/v1.0/F96E564C-1BC8-41BE-B4A6-066D102BD924 stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI2IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.Q0zigDpT5w7d-_I85bfxcazpyNEFenY9QzmjnDIwGYNKEhTniGr9f8LEQNy4Umo5KtY3VO1FH_DSBIm2BSRFjA6xqDqXrqTobs6WYQvZXd_8GfEce8Axyc1zhmCE7pUd8LfJHEJ_3U5fd88dL8wdOgRE0oXkc-_au6ZSj2qtCR77APkhOJQbF0yMJ9q5JIQBzcRsZIYhbuMMYBqhr8IOIa7eKMfRso4Otudqx-025sBCKv5x5MTlcD6zVWwY5jHDW52YRkib1G-Cs_y6BgugD5Mfm6d11vSLvxPkNWt8L8sz0vFe0szLp5tNcrvl3ImZTxxWybVHmLn40mvJtiq-gw
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI2IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.Q0zigDpT5w7d-_I85bfxcazpyNEFenY9QzmjnDIwGYNKEhTniGr9f8LEQNy4Umo5KtY3VO1FH_DSBIm2BSRFjA6xqDqXrqTobs6WYQvZXd_8GfEce8Axyc1zhmCE7pUd8LfJHEJ_3U5fd88dL8wdOgRE0oXkc-_au6ZSj2qtCR77APkhOJQbF0yMJ9q5JIQBzcRsZIYhbuMMYBqhr8IOIa7eKMfRso4Otudqx-025sBCKv5x5MTlcD6zVWwY5jHDW52YRkib1G-Cs_y6BgugD5Mfm6d11vSLvxPkNWt8L8sz0vFe0szLp5tNcrvl3ImZTxxWybVHmLn40mvJtiq-gw
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 0
+interface: /backup_auth/v1.0/my/auth_types
+===============/backup_auth/v1.0/my/auth_types stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.BackupAuthManager.getAuthTypes(BackupAuthManager.java:268)
+com.ncsoft.android.mop.NcBackupAuth.getAuthTypes(NcBackupAuth.java:102)
+com.ncsoft.android.mop.NcBackupAuth.getAuthTypes(NcBackupAuth.java:91)
+com.lineage.SecondaryAuthUtil.GetAuthTypes(SecondaryAuthUtil.java:112)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/backup_auth/v1.0/my/auth_types stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI2IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.Q0zigDpT5w7d-_I85bfxcazpyNEFenY9QzmjnDIwGYNKEhTniGr9f8LEQNy4Umo5KtY3VO1FH_DSBIm2BSRFjA6xqDqXrqTobs6WYQvZXd_8GfEce8Axyc1zhmCE7pUd8LfJHEJ_3U5fd88dL8wdOgRE0oXkc-_au6ZSj2qtCR77APkhOJQbF0yMJ9q5JIQBzcRsZIYhbuMMYBqhr8IOIa7eKMfRso4Otudqx-025sBCKv5x5MTlcD6zVWwY5jHDW52YRkib1G-Cs_y6BgugD5Mfm6d11vSLvxPkNWt8L8sz0vFe0szLp5tNcrvl3ImZTxxWybVHmLn40mvJtiq-gw
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI3IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnsiYXVkaWVuY2VfYXBwX2lkIjoiRjdFOEUyODYtNzNGNC00MkE1LUFFQTEtMkU4QjQ3MjQ5OUVBIn19.tDTZl4j6nlrZkz5wE_WBzfNtr-o9J8KrN6yglz8hFG3EEwWmmaBEhm8-Yn0QzBlxOdXVZxMSdAzB16al2Alic5KglDY80yXvdlcr6XkOBGFsRzAfChW_6-g1sKYicIWuE0LuAYyDxGphwBRpvqzFVhr7xoN-dnI69z6Ao5iYbyV8GzuR0sfkyBMIUrrv9ioD0DJLOZvplUClqUo1CZ2FCj9YzH-hzZuSEjqQny5ntNqeyleeVml_fTUv3whmq3R1PNM8--QQtCE8fGiX60Kv_4kJUW39WLBgxWJZaljoMSDHwDviNER3UMfBYnzivGySamy1V86vAgqfhKO_--OEjg
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 1
+interface: /secondary_auth/v1.0/my/auth;start
+arg3: {"audience_app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"}
+===============/secondary_auth/v1.0/my/auth;start stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.SecondaryAuthManager.startSecondaryAuthAuthentication(SecondaryAuthManager.java:723)
+com.ncsoft.android.mop.NcSecondaryAuth.startSecondaryAuthAuthentication(NcSecondaryAuth.java:66)
+com.ncsoft.android.mop.NcSecondaryAuth.startSecondaryAuthAuthentication(NcSecondaryAuth.java:53)
+com.lineage.SecondaryAuthUtil.StartSecondaryAuthAuthentication(SecondaryAuthUtil.java:29)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/secondary_auth/v1.0/my/auth;start stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI3IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnsiYXVkaWVuY2VfYXBwX2lkIjoiRjdFOEUyODYtNzNGNC00MkE1LUFFQTEtMkU4QjQ3MjQ5OUVBIn19.tDTZl4j6nlrZkz5wE_WBzfNtr-o9J8KrN6yglz8hFG3EEwWmmaBEhm8-Yn0QzBlxOdXVZxMSdAzB16al2Alic5KglDY80yXvdlcr6XkOBGFsRzAfChW_6-g1sKYicIWuE0LuAYyDxGphwBRpvqzFVhr7xoN-dnI69z6Ao5iYbyV8GzuR0sfkyBMIUrrv9ioD0DJLOZvplUClqUo1CZ2FCj9YzH-hzZuSEjqQny5ntNqeyleeVml_fTUv3whmq3R1PNM8--QQtCE8fGiX60Kv_4kJUW39WLBgxWJZaljoMSDHwDviNER3UMfBYnzivGySamy1V86vAgqfhKO_--OEjg
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI3IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnsic2Vzc2lvbl9pZCI6IkJDRDU4RjY1LTcxREEtNEMxOC05RkQ0LUQzMzAyRTBDQTVEMyJ9fQ.CtfbJ29pr96xcYQX_y3tBz_s1vw944ftBjoplMkhY5TdlYp1eQgQkz2jhz9KY5UB6e_DXIA3l4YQRlEuurSj3acWC7wSPNuGHQJkx7jzz2OpbYU8JqCP-Cf5wE8JUEZ3Q_dRpQa6yRnyTmgkCYJetJ4vV2DFW_Ormrtqh9xBuvtz6vxgdFGcv5qimkWPAi8HEwa1Ac8HYi1L-NQ_1sNsOxrTApsPlVQtzi9FeE4v_W4VwFBSTBiUhZceNwCCizO8Vp8McldlT4GqlQoCoOsRoWP6aBwx76Rip1E6gAX5naAckkS73tRtrg5eDwN0wXt2ZOUbKDhYRm64mNqlKYqeJA
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 1
+interface: /secondary_auth/v1.0/my/auth;finish
+arg3: {"session_id":"BCD58F65-71DA-4C18-9FD4-D3302E0CA5D3"}
+===============/secondary_auth/v1.0/my/auth;finish stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.SecondaryAuthManager.finishSecondaryAuthAuthentication(SecondaryAuthManager.java:761)
+com.ncsoft.android.mop.NcSecondaryAuth.finishSecondaryAuthAuthentication(NcSecondaryAuth.java:83)
+com.ncsoft.android.mop.NcSecondaryAuth.finishSecondaryAuthAuthentication(NcSecondaryAuth.java:70)
+com.lineage.SecondaryAuthUtil.FinishSecondaryAuthAuthentication(SecondaryAuthUtil.java:42)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/secondary_auth/v1.0/my/auth;finish stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI3IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnsic2Vzc2lvbl9pZCI6IkJDRDU4RjY1LTcxREEtNEMxOC05RkQ0LUQzMzAyRTBDQTVEMyJ9fQ.CtfbJ29pr96xcYQX_y3tBz_s1vw944ftBjoplMkhY5TdlYp1eQgQkz2jhz9KY5UB6e_DXIA3l4YQRlEuurSj3acWC7wSPNuGHQJkx7jzz2OpbYU8JqCP-Cf5wE8JUEZ3Q_dRpQa6yRnyTmgkCYJetJ4vV2DFW_Ormrtqh9xBuvtz6vxgdFGcv5qimkWPAi8HEwa1Ac8HYi1L-NQ_1sNsOxrTApsPlVQtzi9FeE4v_W4VwFBSTBiUhZceNwCCizO8Vp8McldlT4GqlQoCoOsRoWP6aBwx76Rip1E6gAX5naAckkS73tRtrg5eDwN0wXt2ZOUbKDhYRm64mNqlKYqeJA
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI4IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.1las4hrUfbjRUcSgyKPOlierw7jxOHR2aQKeFaRos-T99D2FvXMx6Jt2Rbj4dwv3ds1pwoEdQSLrfkUWZmVsZp83McBqrdsUpvTBCq-aNAzO1Ey5kDL3I9ikW1lzJnejiu7P0u9d3D4QVicMWzoGFonyL0Adq3YAwjSxOzGJjGBQcmvDQV5aCgjZbYHY7-EvL4g0qzyBUGqrhfJPTDbWhHAIC0wDXMOBye0Avu-tYog8DBISxdX8hyRCOKZM8D54QTB47BAL4KZot7-EHpy2A3l8a2yaE9fX3SutP0VkNFF46r87dMpWsMwspSUwAJ8rkA2forV6EXCcBjsPVEYWZw
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 0
+interface: /sessions/v1.0/F96E564C-1BC8-41BE-B4A6-066D102BD924
+===============/sessions/v1.0/F96E564C-1BC8-41BE-B4A6-066D102BD924 stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.AuthManager.verifySession(AuthManager.java:952)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:199)
+com.ncsoft.android.mop.NcAuth.verifySession(NcAuth.java:187)
+com.lineage.LinmPlatformSdk.VerifySession(LinmPlatformSdk.java:87)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/sessions/v1.0/F96E564C-1BC8-41BE-B4A6-066D102BD924 stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI4IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.1las4hrUfbjRUcSgyKPOlierw7jxOHR2aQKeFaRos-T99D2FvXMx6Jt2Rbj4dwv3ds1pwoEdQSLrfkUWZmVsZp83McBqrdsUpvTBCq-aNAzO1Ey5kDL3I9ikW1lzJnejiu7P0u9d3D4QVicMWzoGFonyL0Adq3YAwjSxOzGJjGBQcmvDQV5aCgjZbYHY7-EvL4g0qzyBUGqrhfJPTDbWhHAIC0wDXMOBye0Avu-tYog8DBISxdX8hyRCOKZM8D54QTB47BAL4KZot7-EHpy2A3l8a2yaE9fX3SutP0VkNFF46r87dMpWsMwspSUwAJ8rkA2forV6EXCcBjsPVEYWZw
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI4IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnsiYXBwX2lkIjoiRjdFOEUyODYtNzNGNC00MkE1LUFFQTEtMkU4QjQ3MjQ5OUVBIn19.rC5yjl1cOJKWMEv2xNSQsSKJYlhVRN1lC93IUiv-8MQsoKnBu8-zd0nIBofFBYUYXppwZyxyXkaN0UNfDnoqcQeNBEuURg6ZrY1F-HbXmqtkUrOIesPtVXHEjJj1Ad1cL2NHHk3Esd5-BTmdE1hOP6BeECQ0nueuptJKtBXa1tZOozSs9tTrU0wO4N3CBPWfs9xWrjBGkKriBW33Ea1kxTmMUMPQEZYR2wZhm9BjJNCVhoIbt3J_N_GZfZ9r_Q15k6822QJTpIp1u3lgLNeWQ7802Vg-R9W0QBT5aD7iZcwl8jBb2KneyL1ivqhR_WcwFnB-z9qqglqtEUY0Xukwlw
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 1
+interface: /sessions/v1.0/authn_token
+arg3: {"app_id":"F7E8E286-73F4-42A5-AEA1-2E8B472499EA"}
+===============/sessions/v1.0/authn_token stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.execute(BaseHttpRequest.java:246)
+com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1091)
+com.ncsoft.android.mop.AuthManager.authnToken(AuthManager.java:1055)
+com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:72)
+com.ncsoft.android.mop.NcAuth.getAuthnToken(NcAuth.java:59)
+com.lineage.LinmPlatformSdk.GetAuthnToken(LinmPlatformSdk.java:123)
+org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:107)
+android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1571)
+android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1270)
+===============/sessions/v1.0/authn_token stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI4IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnsiYXBwX2lkIjoiRjdFOEUyODYtNzNGNC00MkE1LUFFQTEtMkU4QjQ3MjQ5OUVBIn19.rC5yjl1cOJKWMEv2xNSQsSKJYlhVRN1lC93IUiv-8MQsoKnBu8-zd0nIBofFBYUYXppwZyxyXkaN0UNfDnoqcQeNBEuURg6ZrY1F-HbXmqtkUrOIesPtVXHEjJj1Ad1cL2NHHk3Esd5-BTmdE1hOP6BeECQ0nueuptJKtBXa1tZOozSs9tTrU0wO4N3CBPWfs9xWrjBGkKriBW33Ea1kxTmMUMPQEZYR2wZhm9BjJNCVhoIbt3J_N_GZfZ9r_Q15k6822QJTpIp1u3lgLNeWQ7802Vg-R9W0QBT5aD7iZcwl8jBb2KneyL1ivqhR_WcwFnB-z9qqglqtEUY0Xukwlw
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI5IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.DoH4aCE3EkZl5oXn-a__uOFnvyPmFdA0esXENZqOmzFaaK5SAmd3fUwdMTxj5GavHBT_T3xsm9qnoKmOXkyD9nOtOQTNlj_5pvW2e1BaTfK6MbkLCMqa3DfJVZf6rxNfuSkvmj9znZjI0O086gjSpt8ZZamiaU6lS0sRiGKhVGGiS1kwrkj2Nwu9A-TbSvlmxd8ji5YiwuGrP8yXq5OEvcUC4BSKO9dvGv_SkbOr5HjOrKhTfAGkilPKkeK5uU2aMejOvEKz6dierF87j-eO_KFZLQ8HdHom-eQhtsxQNFSHd8QIvmcF3u2_FE3K_D9-Vl-I7e6EOY-kWc4lBUzMhA
+[+]++++++++++++++++++++++++++++++++++++++++++++++++++++[+]
+arg1: 1
+interface: /logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs
+arg3: {"log":[{"time":"2021-04-22 02:33:49.703","timezone":"Asia\/Taipei","logid":1003,"seq":408,"info":{"os":"Android","osver":"8.1.0","did":"32cf43d6-9b3f-44f3-be95-7022e855d2d8","md":"google AOSP on msm8996","ctver":"1.6.12","country":"US","store":"google","uid":"862BA55B-263E-42EC-A1FC-A7E8C44812BD","oauth":"guest","emul":"false"},"start":{"adid":""}}]}
+===============/logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs stack start =============
+com.ncsoft.android.mop.apigate.BaseHttpRequest.doApiRequest(Native Method)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeRequestInternal(BaseHttpRequest.java:270)
+com.ncsoft.android.mop.apigate.BaseHttpRequest.executeMapRequest(BaseHttpRequest.java:251)
+com.ncsoft.android.mop.MapManager.sendLogInternalWithSession(MapManager.java:591)
+com.ncsoft.android.mop.MapManager.sendLogInternal(MapManager.java:307)
+com.ncsoft.android.mop.MapManager.sendNetworkLog(MapManager.java:418)
+com.ncsoft.android.mop.MapManager.sendLogByFile(MapManager.java:412)
+com.ncsoft.android.mop.MapManager.access$800(MapManager.java:38)
+com.ncsoft.android.mop.MapManager$3.run(MapManager.java:370)
+java.lang.Thread.run(Thread.java:764)
+===============/logs/v1.0/6C09ADAC-1121-4527-ABC0-31707DBDF0B3/logs stack end ==============
+[-]++++++++++++++++++++++++++++++++++++++++++++++++++++[-]
+go into builderJwtHeader:  JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2QzA5QURBQy0xMTIxLTQ1MjctQUJDMC0zMTcwN0RCREYwQjMiLCJpYXQiOiIxNjE5MDMwMDI5IiwidHlwIjoic2Vzc2lvbiIsImFjY2Vzc190b2tlbiI6IkY5NkU1NjRDLTFCQzgtNDFCRS1CNEE2LTA2NkQxMDJCRDkyNCIsInJlcXVlc3QiOnt9fQ.DoH4aCE3EkZl5oXn-a__uOFnvyPmFdA0esXENZqOmzFaaK5SAmd3fUwdMTxj5GavHBT_T3xsm9qnoKmOXkyD9nOtOQTNlj_5pvW2e1BaTfK6MbkLCMqa3DfJVZf6rxNfuSkvmj9znZjI0O086gjSpt8ZZamiaU6lS0sRiGKhVGGiS1kwrkj2Nwu9A-TbSvlmxd8ji5YiwuGrP8yXq5OEvcUC4BSKO9dvGv_SkbOr5HjOrKhTfAGkilPKkeK5uU2aMejOvEKz6dierF87j-eO_KFZLQ8HdHom-eQhtsxQNFSHd8QIvmcF3u2_FE3K_D9-Vl-I7e6EOY-kWc4lBUzMhA
